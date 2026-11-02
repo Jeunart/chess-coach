@@ -1,18 +1,18 @@
 # Profil durable (parties rapides analysées par Stockfish)
 
 - Parties : 535 ; victoires 266 (49 %)
-- Bourdes (perte >= 2 pions) : 2234, soit 4.2 par partie
-- Erreurs moyennes (1 à 2 pions) : 1977
-- Bourdes avec moins d'une minute à l'horloge : 65
+- Bourdes décisives (perte >= 2 pions, position pas déjà perdue) : 1869, soit 3.5 par partie
+- Erreurs moyennes (1 à 2 pions) : 1961
+- Bourdes décisives avec moins d'une minute à l'horloge : 41
 
 ## Types de bourdes
-- pièce laissée en prise : 882 (39 %)
-- autre erreur positionnelle ou tactique : 747 (33 %)
-- mat subi (j'ai laissé un mat) : 247 (11 %)
-- gain de pièce manqué : 187 (8 %)
-- mat manqué : 171 (7 %)
+- pièce laissée en prise : 762 (40 %)
+- autre erreur : 690 (36 %)
+- gain de pièce manqué : 183 (9 %)
+- mat manqué : 163 (8 %)
+- mat subi : 71 (3 %)
 
-## Phase de la partie où je bourde
-- milieu : 1173
-- finale : 541
-- ouverture : 520
+## Phase où je bourde
+- milieu : 1002
+- ouverture : 501
+- finale : 366
