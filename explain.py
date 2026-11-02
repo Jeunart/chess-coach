@@ -8,7 +8,7 @@ FEM = {chess.ROOK, chess.QUEEN}
 NAMES = {chess.KING: ("Roi", "Rois"), chess.QUEEN: ("Dame", "Dames"), chess.ROOK: ("Tour", "Tours"),
          chess.BISHOP: ("Fou", "Fous"), chess.KNIGHT: ("Cavalier", "Cavaliers"), chess.PAWN: ("Pion", "Pions")}
 LEGEND = ("Légende des échiquiers : MAJUSCULES = pièces blanches, minuscules = pièces noires ; "
-          "K/k roi, Q/q dame, R/r tour, B/b fou, N/n cavalier, P/p pion ; . = case vide. "
+          "K/k roi, Q/q dame, R/r tour, B/b fou, N/n cavalier, P/p pion ; . = case claire vide, # = case foncée vide. "
           "Notation des coups : K Roi, Q Dame, R Tour, B Fou, N Cavalier, aucune lettre = pion ; "
           "x = prise ; + = échec ; # = mat ; O-O = petit roque ; O-O-O = grand roque.")
 
@@ -21,7 +21,7 @@ def diagram(fen):
     rows = []
     for r in ranks:
         cells = [b.piece_at(chess.square(f, r)) for f in files]
-        rows.append(f"{r + 1}  " + " ".join(c.symbol() if c else "." for c in cells))
+        rows.append(f"{r + 1}  " + " ".join(c.symbol() if c else ("#" if (f + r) % 2 == 0 else ".") for f, c in zip(files, cells)))
     rows.append("   " + " ".join("abcdefgh"[f] for f in files))
     return "\n".join(rows)
 
