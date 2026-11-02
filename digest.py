@@ -1,5 +1,6 @@
 import datetime
 import json
+import os
 import zoneinfo
 
 import explain
@@ -74,4 +75,7 @@ def build(games, today=None):
 
 
 if __name__ == "__main__":
-    open("seance.md", "w", encoding="utf-8").write(build(load()))
+    s = build(load())
+    os.makedirs("seances", exist_ok=True)
+    for p in ("seance.md", f"seances/{datetime.datetime.now(TZ).date()}.md"):
+        open(p, "w", encoding="utf-8").write(s)
