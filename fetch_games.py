@@ -17,7 +17,7 @@ def last_games(n=30):
         games = get(url)["games"] + games
         if len(games) >= n * 2:
             break
-    games = [g for g in games if g.get("rules") == "chess"]
+    games = [g for g in games if g.get("rules") == "chess" and g.get("time_class") == "rapid"]
     games.sort(key=lambda g: g["end_time"])
     return games[-n:]
 
