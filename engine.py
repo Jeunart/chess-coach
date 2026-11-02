@@ -70,7 +70,7 @@ def analyze_game(game, eng):
         b = boards[k]
         errs.append({"ply": k + 1, "n": b.fullmove_number, "phase": _phase(b.fullmove_number),
                      "move": b.san(mv), "best": b.san(best[k]) if best[k] else None,
-                     "loss": loss, "clk": clocks[k], "fen": b.fen(),
+                     "loss": loss, "eb": me_b, "clk": clocks[k], "fen": b.fen(),
                      "tag": _tag(b, mv, best[k], boards[k + 1], best[k + 1], me_b, me_a)})
     return {"id": game["id"], "end": game["end"], "white": game["white"],
             "rating": game["rating"], "result": game["result"], "moves": mine, "errs": errs}
