@@ -8,7 +8,7 @@ import chess.engine
 import chesscom
 import engine
 
-PATH = "data/a2.jsonl"
+PATH = "data/a3.jsonl"
 STOCKFISH = os.environ.get("STOCKFISH", "/usr/games/stockfish")
 LIMIT = int(os.environ.get("LIMIT", "1500"))
 _eng = None
