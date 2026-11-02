@@ -15,7 +15,7 @@ THEME = {
 }
 
 
-def load(path="data/a2.jsonl"):
+def load(path="data/a3.jsonl"):
     return [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
 
 
@@ -31,7 +31,7 @@ def verdict(g):
 def line(g, e, tag=True):
     trait = "blancs" if e["fen"].split()[1] == "w" else "noirs"
     s = (f"- {LINK}{g['id']} coup {e['n']}, trait aux {trait}. FEN: {e['fen']} | Mon coup: {e['move']} | "
-         f"Meilleur coup (à révéler APRÈS ma réponse): {e['best']} | Perte: {e['loss'] / 100:.1f} pions")
+         f"Ligne du moteur, meilleur coup en premier (à révéler APRÈS ma réponse): {e.get('pv') or e['best']} | Perte: {e['loss'] / 100:.1f} pions")
     return s + (f" | Type: {picks.TAGS[e['tag']]}" if tag else "")
 
 
