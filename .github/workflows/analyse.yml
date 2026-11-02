@@ -20,10 +20,11 @@ jobs:
           pip install chess
       - run: python analyze_all.py
       - run: python resume.py
+      - run: python digest.py
       - run: |
           git config user.name "chess-coach-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data
+          git add data seance.md
           git diff --cached --quiet || git commit -m "maj analyse"
           git pull --rebase -q
           git push
