@@ -29,7 +29,7 @@ def _tag(before, mv, best, after, reply, me_b, me_a):
 
 
 def _evaluate(boards, eng):
-    ev, best = [], []
+    ev, best, pvs = [], [], []
     for b in boards:
         if b.is_game_over():
             if b.is_checkmate():
@@ -37,11 +37,13 @@ def _evaluate(boards, eng):
             else:
                 ev.append(0)
             best.append(None)
+            pvs.append([])
             continue
         info = eng.analyse(b, chess.engine.Limit(depth=DEPTH))
         ev.append(max(-1000, min(1000, info["score"].white().score(mate_score=1000))))
         best.append(info["pv"][0] if info.get("pv") else None)
-    return ev, best
+        pvs.append(info.get("pv", [])[:5])
+    return ev, best, pvs
 
 
 def analyze_game(game, eng):
@@ -56,7 +58,7 @@ def analyze_game(game, eng):
         b.push(node.move)
         boards.append(b)
         moves.append(node.move)
-    ev, best = _evaluate(boards, eng)
+    ev, best, pvs = _evaluate(boards, eng)
     sign = 1 if game["white"] else -1
     errs, mine = [], 0
     for k, mv in enumerate(moves):
@@ -70,6 +72,7 @@ def analyze_game(game, eng):
         b = boards[k]
         errs.append({"ply": k + 1, "n": b.fullmove_number, "phase": _phase(b.fullmove_number),
                      "move": b.san(mv), "best": b.san(best[k]) if best[k] else None,
+                     "pv": b.variation_san(pvs[k]) if pvs[k] else None,
                      "loss": loss, "eb": me_b, "clk": clocks[k], "fen": b.fen(),
                      "tag": _tag(b, mv, best[k], boards[k + 1], best[k + 1], me_b, me_a)})
     return {"id": game["id"], "end": game["end"], "white": game["white"],
