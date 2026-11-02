@@ -2,10 +2,13 @@ import datetime
 import json
 import zoneinfo
 
+import explain
 import picks
 
 TZ = zoneinfo.ZoneInfo("Europe/Zurich")
 LINK = "https://www.chess.com/game/live/"
+FENCE = chr(96) * 3
+LEGEND_NOTE = "Pour chaque position : montre l'échiquier tel quel, puis pose la question ; les coups sont décrits en mots avant la notation."
 THEME = {
     "piece_en_prise": "Avant chaque coup : la pièce que je déplace est-elle protégée ? Une autre pièce reste-t-elle sans défense ?",
     "mat_subi": "Sécurité du roi : avant chaque coup, chercher les échecs et les mats adverses en 1 ou 2 coups.",
@@ -28,11 +31,17 @@ def verdict(g):
     return "gagnée" if r == "win" else "nulle" if r in picks.DRAW else "perdue"
 
 
-def line(g, e, tag=True):
-    trait = "blancs" if e["fen"].split()[1] == "w" else "noirs"
-    s = (f"- {LINK}{g['id']} coup {e['n']}, trait aux {trait}. FEN: {e['fen']} | Mon coup: {e['move']} | "
-         f"Ligne du moteur, meilleur coup en premier (à révéler APRÈS ma réponse): {e.get('pv') or e['best']} | Perte: {e['loss'] / 100:.1f} pions")
-    return s + (f" | Type: {picks.TAGS[e['tag']]}" if tag else "")
+def block(title, g, e, tag=True):
+    fen = e["fen"]
+    trait = "blancs" if fen.split()[1] == "w" else "noirs"
+    L = [f"### {title} : {LINK}{g['id']} coup {e['n']}, trait aux {trait} ({trait} en bas de l'échiquier)",
+         FENCE, explain.diagram(fen), FENCE, explain.pieces(fen), f"FEN : {fen}",
+         "À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :",
+         f"- Mon coup : {explain.speak(fen, [e['move']])}"]
+    sans = explain.sans_of(e["pv"]) if e.get("pv") else ([e["best"]] if e["best"] else [])
+    L.append(f"- Ligne du moteur (meilleur coup en premier) : {explain.speak(fen, sans)}")
+    L.append(f"- Perte : {e['loss'] / 100:.1f} pions" + (f" ; type d'erreur : {picks.TAGS[e['tag']]}" if tag else ""))
+    return "\n".join(L) + "\n"
 
 
 def stats(gs):
@@ -55,9 +64,11 @@ def build(games, today=None):
     L += [f"- {LINK}{g['id']} : {'blancs' if g['white'] else 'noirs'}, {verdict(g)}, "
           f"{len(picks.decisive(g))} bourdes décisives" for g in dg]
     L += ["Moments critiques (position jouable où j'ai perdu l'avantage) :"]
-    L += [line(g, e) for g, e in picks.moments(dg)] or ["- aucun moment critique net"]
+    L += [LEGEND_NOTE, explain.LEGEND, ""]
+    L += [block(f"Moment {k}", g, e) for k, (g, e) in enumerate(picks.moments(dg, total=4), 1)] or ["- aucun moment critique net"]
     L += ["", "## Puzzles tirés de mes anciennes bourdes (solution après ma réponse)"]
-    L += [line(g, e, False) for g, e in picks.puzzles(games, {g["id"] for g in dg}, weak, today)]
+    L += [block(f"Puzzle {k}", g, e, False) for k, (g, e) in
+          enumerate(picks.puzzles(games, {g["id"] for g in dg}, weak, today, k=3), 1)]
     L += ["", f"## Focus et mini-cours : {picks.TAGS[weak]}", THEME[weak]]
     return "\n".join(L) + "\n"
 
