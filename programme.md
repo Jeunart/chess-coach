@@ -27,3 +27,12 @@ Niveau de départ : environ 450 Elo. Objectif : 1000 Elo. Le robot choisit chaqu
 - **L14 - Roi et pion contre roi.** Idée : l'opposition et les cases clés.
 - **L15 - Mats de base et pat.** Idée : mat avec dame et roi, avec tour et roi ; ne jamais donner pat à un adversaire que je domine.
 - **L16 - Convertir un avantage.** Idée : échanger les pièces, pousser les pions passés, garder le roi actif.
+
+## Bloc E - Théorie d'ouverture (voir theorie.md)
+Chaque leçon s'appuie sur une ou deux lignes de theorie.md et sur une partie réelle où l'on quitte la théorie (indiqué dans rapport/partie-N.md et bilan.md). Aucune ligne n'est à apprendre par cœur : on retient l'idée, le plan et le piège.
+- **L19 - Caro-Kann : le fou sort avant e6.** Variantes classique, avance, échange, Panov, deux cavaliers.
+- **L20 - Mes blancs : Scotch et partie italienne.** Plans, pièges (Fried Liver, Legal).
+- **L21 - Contre la Scandinave, la Philidor et l'Englund.** Prendre le centre sans perdre de temps ni tomber dans le piège de la dame.
+- **L22 - Le système de Londres.** Même structure quoi que fasse l'adversaire ; erreurs fréquentes.
+- **L23 - La défense française.** Les quatre variantes principales et le plan c5.
+- **L24 - Quitter la théorie sans paniquer.** Quand l'adversaire sort du livret : retour aux 5 principes et au contrôle avant chaque coup.

@@ -109,7 +109,7 @@ def good_moves(g, k=2):
     return [(ply, san) for _, ply, san in sorted(out, reverse=True)[:k]]
 
 
-def key_errors(g, k=4):
+def key_errors(g, k=6):
     """Erreurs décisives les plus lourdes, sans la suite immédiate d'une gaffe déjà retenue."""
     es = sorted((e for e in g["errs"] if decisive(e)), key=lambda e: -e["loss"])
     chosen = []
@@ -201,6 +201,8 @@ def game_section(idx, g):
     """Section complète d'une partie pour rapport.md (contient les solutions)."""
     L = [f"## Partie {idx} : {TC_FR[g['tc']]} - {outcome(g)} {ending(g)}", f"- Lien : {g['url']}", ""]
     L += [f"- {s}" for s in story(g)]
+    from coach import theorie  # import tardif : theorie importe facts
+    L.append(f"- Théorie d'ouverture : {theorie.deviation_text(g, sans_of(g))}")
     gm = good_moves(g)
     if gm:
         L.append("- Coups réussis : " + " ; ".join(f"coup {(ply + 1) // 2} ({san})" for ply, san in gm))

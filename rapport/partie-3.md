@@ -9,6 +9,7 @@
 - Aucune erreur décisive : partie propre.
 - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
 - Ton horloge est descendue à 0:15.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 Aucun moment clé à corriger dans cette partie.
 

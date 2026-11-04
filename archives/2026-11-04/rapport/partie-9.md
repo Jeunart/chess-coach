@@ -8,6 +8,7 @@
 - Au coup 10, la position était nettement meilleure pour l'adversaire.
 - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 3.
+- Théorie d'ouverture : Au coup 3 des blancs, l'adversaire a joué d4 au lieu de Nf3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : deux cavaliers (2.Cc3)). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 9.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186489489128 - coup 5, tu jouais les noirs

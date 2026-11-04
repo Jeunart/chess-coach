@@ -8,6 +8,7 @@
 - Au coup 10, la position était gagnante pour toi.
 - 1 erreur décisive de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 8.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186487307762 - coup 10, tu jouais les blancs

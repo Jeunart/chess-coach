@@ -10,6 +10,7 @@
 - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
 - Ton horloge est descendue à 0:08.
+- Théorie d'ouverture : Au coup 3 des noirs, tu as joué Nf6 au lieu de Bg4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : deux cavaliers (2.Cc3)). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 5.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186474305994 - coup 5, tu jouais les noirs

@@ -9,6 +9,7 @@
 - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
 - Ton horloge est descendue à 0:01 ; 3 erreur(s) décisive(s) sous la minute.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 7.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186477266944 - coup 6, tu jouais les noirs

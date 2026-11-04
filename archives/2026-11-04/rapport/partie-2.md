@@ -10,6 +10,7 @@
 - Au coup 30, la position était gagnante pour toi.
 - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 7 occasions d'avantage ; tu en as saisi 5.
+- Théorie d'ouverture : Au coup 3 des noirs, tu as joué Nf6 au lieu de dxe4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante classique (3.Cc3)). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 2.1 (corrigé)
 - Partie : https://www.chess.com/game/daily/1049939302 - coup 8, tu jouais les noirs

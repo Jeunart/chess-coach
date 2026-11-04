@@ -8,7 +8,7 @@ import datetime
 
 import chess
 
-from coach import facts, report
+from coach import facts, report, theorie
 
 FOCUS_BASES = (600, 900)  # 10 et 15 minutes (avec ou sans incrément)
 RAW = "https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-{}.md"
@@ -72,6 +72,7 @@ def _game_lines(i, g):
         clk = f", horloge {report.clock(e['clk'])}" if e.get("clk") is not None else ""
         L.append(f"  - coup {e['n']} ({e['phase']}) : {_san(e)}, perte {e['loss'] / 100:.1f} pion(s), "
                  f"thème automatique : {facts.MOTIFS[m]}{clk}")
+    L.append(f"  - théorie : {theorie.deviation_text(g, report.sans_of(g))}")
     if gift_total:
         L.append(f"  - cadeaux de l'adversaire saisis : {gift_taken} sur {gift_total}")
     if report.outcome(g) != "victoire" and _max_adv(g) >= 300:
@@ -111,10 +112,9 @@ def build(gy, games, today):
         L.append("- Aucune partie rapide de 10 ou 15 minutes ce jour-là.")
     other = [g for g in gy if not is_focus(g)]
     if other:
-        L += ["", "## Autres parties du jour (résumé)"]
-        for g in other:
-            L.append(f"- Partie {idx[id(g)]} ({report.TC_FR[g['tc']]}, {report.ctrl_fr(g['ctrl'])}) : "
-                     f"{report.outcome(g)} {report.ending(g)}, {len(_decisive(g))} erreur(s) décisive(s)")
+        L += ["", "## Toutes les autres parties du jour (même détail)"]
+        for g in sorted(other, key=lambda x: ("rapid", "blitz", "daily", "bullet").index(x["tc"])):
+            L += _game_lines(idx[id(g)], g)
     L.append("")
 
     since = today - datetime.timedelta(days=30)

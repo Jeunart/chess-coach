@@ -7,6 +7,7 @@
 - Ouverture : Reti Opening Slav Invitation.
 - 1 erreur décisive de ta part (perte d'au moins 2 pions).
 - Ton horloge est descendue à 0:18 ; 1 erreur(s) décisive(s) sous la minute.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 6.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186475832848 - coup 3, tu jouais les noirs

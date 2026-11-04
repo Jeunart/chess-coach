@@ -10,6 +10,7 @@
 - Au coup 30, la position était perdante pour toi.
 - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Au coup 3 des blancs, l'adversaire a joué exd5 au lieu de Nf3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : deux cavaliers (2.Cc3)). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 10.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186489730616 - coup 8, tu jouais les noirs

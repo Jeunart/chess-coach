@@ -7,6 +7,7 @@
 - Ouverture : Petrovs Defense Three Knights Game.
 - Au coup 10, la position était perdante pour toi.
 - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 4.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186473509246 - coup 6, tu jouais les blancs

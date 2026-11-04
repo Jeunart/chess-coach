@@ -10,6 +10,7 @@
 - Au coup 30, la position était perdante pour toi.
 - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
 - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 1.1 (corrigé)
 - Partie : https://www.chess.com/game/live/186460690850 - coup 12, tu jouais les noirs

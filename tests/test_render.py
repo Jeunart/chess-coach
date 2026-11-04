@@ -133,3 +133,21 @@ def test_bilan_focus_rapides_10_15(tmp_path):
     assert (tmp_path / "bilan.md").exists()
     # la numérotation correspond à rapport/partie-N.md
     assert "rapport/partie-" in b
+
+
+def test_livret_legal_et_theorie_dans_rapport(tmp_path):
+    from coach import theorie
+    assert len(theorie.entries()) >= 20  # toutes les lignes du livret sont légales (push_san lève sinon)
+    setup(tmp_path)
+    out = render.render(TODAY, root=str(tmp_path))
+    assert any("Théorie d'ouverture" in l for l in out["rapport/partie-1.md"])
+    assert any("Bilan de la veille" in l for l in out["bilan.md"])
+    assert "theorie.md" in out and any("Livret d'ouvertures" in l for l in out["theorie.md"])
+
+
+def test_toutes_les_parties_dans_le_bilan(tmp_path):
+    setup(tmp_path)
+    out = render.render(TODAY, root=str(tmp_path))
+    b = "\n".join(out["bilan.md"])
+    for i in (1, 2, 3):
+        assert f"Partie {i} (" in b

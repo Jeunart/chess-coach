@@ -9,7 +9,7 @@ import os
 import random
 import sys
 
-from coach import bilan, facts, profile, report
+from coach import bilan, facts, profile, report, theorie
 
 DATA = "data/v2/games.jsonl"
 MANIFEST = "data/v2/manifest.json"
@@ -31,21 +31,18 @@ def load(root="."):
     return sorted(games, key=lambda g: g["end"]), manifest
 
 
-def pick_positions(day_games, all_games, today, n=4, n_revisit=2):
+def pick_positions(day_games, all_games, today, n=16, n_revisit=3):
     """Positions de la séance : une erreur décisive par partie de la veille (la plus lourde, thèmes variés),
     puis révision d'erreurs d'il y a 3, 7 et 14 jours (répétition espacée sans état à conserver)."""
-    cands = []
-    for g in day_games:
-        es = [e for e in g["errs"] if report.decisive(e, -150)]
-        if es:
-            e = max(es, key=lambda x: x["loss"])
-            cands.append((min(e["loss"], 800), g, e, facts.why_loss(e)["motif"]))
-    cands.sort(key=lambda t: -t[0])
-    chosen, per_motif = [], collections.Counter()
-    for _, g, e, m in cands:
-        if per_motif[m] < 2 and len(chosen) < n:
-            chosen.append((g, e))
-            per_motif[m] += 1
+    chosen = []
+    for g in day_games:  # jusqu'à deux erreurs décisives par partie, dans l'ordre des parties
+        es = sorted((e for e in g["errs"] if report.decisive(e, -150)), key=lambda x: -x["loss"])
+        keep = []
+        for e in es:
+            if all(abs(e["ply"] - k["ply"]) > 4 for k in keep) and len(keep) < 2:
+                keep.append(e)
+        chosen += [(g, e) for e in sorted(keep, key=lambda x: x["ply"])]
+    chosen = chosen[:n]
     yesterday = today - datetime.timedelta(days=1)
     revisit = []
     for off in (3, 7, 14):
@@ -148,6 +145,7 @@ def render(today, root="."):
           "(À annoncer APRÈS les positions : ce titre souffle le type d'erreur à chercher.)",
           f"Choisie parce que : {why}. Détail de la leçon dans programme.md.", "",
           "## Pour aller plus loin",
+          "- theorie.md : livret d'ouvertures (lignes classiques, idées, pièges) ; chaque rapport/partie-N.md indique où la partie quitte la théorie.",
           "- bilan.md : bilan de la veille (rapides 10 et 15 min en focus, axes de progression, conseils) ; à lire quand l'élève demande l'analyse de la veille.",
           "- rapport.md : vue d'ensemble ; rapport/partie-N.md : analyse détaillée et expliquée de la partie N de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).",
           "- profil.md : profil durable et progression. programme.md : les leçons.", ""]
@@ -167,6 +165,7 @@ def render(today, root="."):
         R += ["## Parties arrivées en retard (jours précédents)"] + [f"- {g['url']} ({report.day(g)})" for g in late] + [""]
 
     out = {"seance.md": S, "corriges.md": C, "rapport.md": R, "profil.md": profile.build(games, today),
+           "theorie.md": theorie.build_md(),
            "bilan.md": bilan.build(gy, games, today)}
     rdir = os.path.join(root, "rapport")
     os.makedirs(rdir, exist_ok=True)
