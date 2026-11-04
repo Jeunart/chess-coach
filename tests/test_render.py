@@ -113,3 +113,23 @@ def test_accords_et_formulations(tmp_path):
 def test_duree_lisible_et_pas_d_horloge_en_correspondance():
     assert report.ctrl_fr("600") == "10 min" and report.ctrl_fr("180+2") == "3 min + 2 s"
     assert report.ctrl_fr("1/86400") == "1 jour(s) par coup" and report.ctrl_fr("60") == "1 min"
+
+
+def test_bilan_focus_rapides_10_15(tmp_path):
+    setup(tmp_path)
+    path = tmp_path / "data" / "v2" / "games.jsonl"
+    recs = [json.loads(l) for l in open(path, encoding="utf-8") if l.strip()]
+    for r in recs:
+        if r["tc"] == "rapid":
+            r["ctrl"] = "600"
+    with open(path, "w", encoding="utf-8") as f:
+        for r in recs:
+            f.write(json.dumps(r) + "\n")
+    out = render.render(TODAY, root=str(tmp_path))
+    b = "\n".join(out["bilan.md"])
+    assert "Focus : rapides 10 et 15 minutes" in b
+    assert "Axes de progression" in b
+    assert "Limites" in b
+    assert (tmp_path / "bilan.md").exists()
+    # la numérotation correspond à rapport/partie-N.md
+    assert "rapport/partie-" in b

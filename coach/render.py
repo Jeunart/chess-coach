@@ -9,7 +9,7 @@ import os
 import random
 import sys
 
-from coach import facts, profile, report
+from coach import bilan, facts, profile, report
 
 DATA = "data/v2/games.jsonl"
 MANIFEST = "data/v2/manifest.json"
@@ -148,6 +148,7 @@ def render(today, root="."):
           "(À annoncer APRÈS les positions : ce titre souffle le type d'erreur à chercher.)",
           f"Choisie parce que : {why}. Détail de la leçon dans programme.md.", "",
           "## Pour aller plus loin",
+          "- bilan.md : bilan de la veille (rapides 10 et 15 min en focus, axes de progression, conseils) ; à lire quand l'élève demande l'analyse de la veille.",
           "- rapport.md : vue d'ensemble ; rapport/partie-N.md : analyse détaillée et expliquée de la partie N de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).",
           "- profil.md : profil durable et progression. programme.md : les leçons.", ""]
 
@@ -165,7 +166,8 @@ def render(today, root="."):
     if late:
         R += ["## Parties arrivées en retard (jours précédents)"] + [f"- {g['url']} ({report.day(g)})" for g in late] + [""]
 
-    out = {"seance.md": S, "corriges.md": C, "rapport.md": R, "profil.md": profile.build(games, today)}
+    out = {"seance.md": S, "corriges.md": C, "rapport.md": R, "profil.md": profile.build(games, today),
+           "bilan.md": bilan.build(gy, games, today)}
     rdir = os.path.join(root, "rapport")
     os.makedirs(rdir, exist_ok=True)
     for f in os.listdir(rdir):

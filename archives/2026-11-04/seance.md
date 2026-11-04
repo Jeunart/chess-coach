@@ -1,6 +1,6 @@
 # Séance du 2026-11-04
 
-Généré le 2026-11-04 11:48 (heure de Zurich). Parties étudiées : celles du 2026-11-03.
+Généré le 2026-11-04 12:31 (heure de Zurich). Parties étudiées : celles du 2026-11-03.
 
 ## Contrôle des données
 - Parties importées au total : 906 (blitz 299, bullet 31, daily 30, rapid 546)
@@ -136,6 +136,7 @@ Ouvre le lien Lichess (échiquier cliquable ; garde le moteur d'analyse éteint)
 Choisie parce que : 10 erreur(s) décisive(s) récente(s) de type « pièce laissée en prise ». Détail de la leçon dans programme.md.
 
 ## Pour aller plus loin
+- bilan.md : bilan de la veille (rapides 10 et 15 min en focus, axes de progression, conseils) ; à lire quand l'élève demande l'analyse de la veille.
 - rapport.md : vue d'ensemble ; rapport/partie-N.md : analyse détaillée et expliquée de la partie N de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).
 - profil.md : profil durable et progression. programme.md : les leçons.
 

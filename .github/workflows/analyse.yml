@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "chess-coach-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/v2 seance.md corriges.md rapport.md rapport profil.md archives
+          git add data/v2 seance.md corriges.md rapport.md bilan.md rapport profil.md archives
           git diff --cached --quiet || git commit -m "maj séance"
           git pull --rebase -q
           git push
