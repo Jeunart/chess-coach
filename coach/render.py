@@ -148,29 +148,37 @@ def render(today, root="."):
           "(À annoncer APRÈS les positions : ce titre souffle le type d'erreur à chercher.)",
           f"Choisie parce que : {why}. Détail de la leçon dans programme.md.", "",
           "## Pour aller plus loin",
-          "- rapport.md : analyse détaillée et expliquée de chaque partie de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).",
+          "- rapport.md : vue d'ensemble ; rapport/partie-N.md : analyse détaillée et expliquée de la partie N de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).",
           "- profil.md : profil durable et progression. programme.md : les leçons.", ""]
 
-    R = [f"# Rapport détaillé du {today}", "", f"Généré le {ts} (heure de Zurich). Parties du {day_label}.", ""]
+    RAW = "https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-{}.md"
+    R = [f"# Rapport du {today} : vue d'ensemble", "", f"Généré le {ts} (heure de Zurich). Parties du {day_label}.",
+         "Chaque partie a son fichier détaillé (récit, moments clés, solutions). Lis seulement celui de la partie demandée.", ""]
     R += check_block(gy, manifest, today)
-    R += ["## Vue d'ensemble"]
+    R += ["## Parties"]
     for i, g in enumerate(gy, 1):
         R.append(f"- Partie {i} : {report.TC_FR[g['tc']]}, {report.outcome(g)} {report.ending(g)}, "
-                 f"{sum(1 for e in g['errs'] if report.decisive(e))} erreur(s) décisive(s) - {g['url']}")
+                 f"{sum(1 for e in g['errs'] if report.decisive(e))} erreur(s) décisive(s) - détail : {RAW.format(i)} - {g['url']}")
     R.append("")
-    for i, g in enumerate(gy, 1):
-        R += report.game_section(i, g)
-    late = [g for g in games if g.get("seen") == str(today) and report.day(g) < day_label]
+    recent = day_label - datetime.timedelta(days=3)  # évite de tout lister lors du premier import
+    late = [g for g in games if g.get("seen") == str(today) and recent <= report.day(g) < day_label]
     if late:
         R += ["## Parties arrivées en retard (jours précédents)"] + [f"- {g['url']} ({report.day(g)})" for g in late] + [""]
 
     out = {"seance.md": S, "corriges.md": C, "rapport.md": R, "profil.md": profile.build(games, today)}
+    rdir = os.path.join(root, "rapport")
+    os.makedirs(rdir, exist_ok=True)
+    for f in os.listdir(rdir):
+        if f.startswith("partie-"):
+            os.remove(os.path.join(rdir, f))  # un seul jeu de fichiers à la fois ; l'historique est dans archives/
+    for i, g in enumerate(gy, 1):
+        out[f"rapport/partie-{i}.md"] = [f"# Partie {i} du {day_label}", ""] + report.game_section(i, g)
     for name, lines in out.items():
         text = "\n".join(lines) + "\n"
         open(os.path.join(root, name), "w", encoding="utf-8").write(text)
-        arch = os.path.join(root, "archives", str(today))
-        os.makedirs(arch, exist_ok=True)
-        open(os.path.join(arch, name), "w", encoding="utf-8").write(text)
+        arch = os.path.join(root, "archives", str(today), name)
+        os.makedirs(os.path.dirname(arch), exist_ok=True)
+        open(arch, "w", encoding="utf-8").write(text)
     return out
 
 

@@ -204,6 +204,18 @@ def why_loss(e):
         return {"motif": "menace_ignoree", "details": details,
                 "phrase": f"{who_sq(b0, s)} était menacé{_fem(b0, s)} avant ton coup et l'est resté{_fem(b0, s)}."}
 
+    for i, (rb, rm) in enumerate(ref[:4]):
+        if i % 2:
+            continue  # coups adverses seulement
+        ra = rb.copy()
+        ra.push(rm)
+        h = hanging(ra, me)
+        if h:
+            sq, kind = h[0]
+            return {"motif": "autre", "details": details,
+                    "phrase": (f"Pas de gain immédiat pour l'adversaire, mais après {rb.san(rm)} (dans la suite du moteur) "
+                               f"{hanging_phrase(ra, sq, kind)} : ton coup te fait perdre du temps et de l'initiative.")}
+
     hints = []
     if best:
         if b0.is_castling(best):

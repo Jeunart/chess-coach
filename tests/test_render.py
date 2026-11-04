@@ -42,7 +42,8 @@ def setup(tmp_path):
     json.dump({"total": {"blitz": 2, "rapid": 2}, "exclues": {}, "echecs": []},
               open(tmp_path / "data" / "v2" / "manifest.json", "w"))
     render.render(TODAY, root=str(tmp_path))
-    return {n: open(tmp_path / n, encoding="utf-8").read() for n in ("seance.md", "corriges.md", "rapport.md", "profil.md")}
+    names = ["seance.md", "corriges.md", "rapport.md", "profil.md"] + [f"rapport/partie-{i}.md" for i in (1, 2, 3)]
+    return {n: open(tmp_path / n, encoding="utf-8").read() for n in names}
 
 
 def test_la_seance_ne_contient_aucune_solution(tmp_path):
@@ -65,7 +66,7 @@ def test_aucun_echiquier_texte_et_liens_lichess_exacts(tmp_path):
     for name, text in f.items():
         assert "```" not in text, name
         assert not re.search(r"^[1-8]  [.#a-zA-Z] ", text, re.M), name
-    for text in (f["seance.md"], f["rapport.md"]):
+    for text in (f["seance.md"], f["rapport/partie-1.md"], f["rapport/partie-2.md"]):
         pairs = re.findall(r"- Échiquier : (\S+)\n- FEN : (.+)", text)
         for url, fen in pairs:
             assert chess.Board(fen).is_valid()
@@ -74,9 +75,12 @@ def test_aucun_echiquier_texte_et_liens_lichess_exacts(tmp_path):
 
 
 def test_rapport_couvre_toutes_les_parties_de_la_veille(tmp_path):
-    r = setup(tmp_path)["rapport.md"]
-    assert r.count("## Partie ") == 3
-    assert "Bishops Opening Berlin Defense" in r and "par mat" in r
+    f = setup(tmp_path)
+    assert f["rapport.md"].count("- Partie ") == 3 and "rapport/partie-3.md" in f["rapport.md"]
+    assert "## Partie 1 " in f["rapport/partie-1.md"] and "Moment clé" in f["rapport/partie-1.md"]
+    assert "Bishops Opening Berlin Defense" in f["rapport/partie-1.md"] and "par mat" in f["rapport/partie-1.md"]
+    assert not (tmp_path / "rapport" / "partie-4.md").exists()
+    assert (tmp_path / "archives" / str(TODAY) / "rapport" / "partie-1.md").exists()
 
 
 def test_revision_d_une_ancienne_erreur(tmp_path):
@@ -101,6 +105,11 @@ def test_journee_sans_partie(tmp_path):
 
 def test_accords_et_formulations(tmp_path):
     f = setup(tmp_path)
-    tout = f["corriges.md"] + f["rapport.md"]
+    tout = f["corriges.md"] + f["rapport/partie-1.md"] + f["rapport/partie-2.md"]
     assert "prise de le" not in tout and "prise de la" not in tout.replace("prise de la dame", "")
     assert "cavalier noir en d5 : il n'était pas défendu" in tout
+
+
+def test_duree_lisible_et_pas_d_horloge_en_correspondance():
+    assert report.ctrl_fr("600") == "10 min" and report.ctrl_fr("180+2") == "3 min + 2 s"
+    assert report.ctrl_fr("1/86400") == "1 jour(s) par coup" and report.ctrl_fr("60") == "1 min"

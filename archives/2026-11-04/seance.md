@@ -1,6 +1,6 @@
 # Séance du 2026-11-04
 
-Généré le 2026-11-04 11:40 (heure de Zurich). Parties étudiées : celles du 2026-11-03.
+Généré le 2026-11-04 11:48 (heure de Zurich). Parties étudiées : celles du 2026-11-03.
 
 ## Contrôle des données
 - Parties importées au total : 906 (blitz 299, bullet 31, daily 30, rapid 546)
@@ -18,7 +18,7 @@ Généré le 2026-11-04 11:40 (heure de Zurich). Parties étudiées : celles du 
 
 ## Parties de la veille (récit, sans les solutions)
 1. https://www.chess.com/game/live/186460690850
-   - Rapide (600), tu jouais les noirs contre Ranga1990 (442) : victoire par mat.
+   - Rapide (10 min), tu jouais les noirs contre Ranga1990 (442) : victoire par mat.
    - Ouverture : Queens Pawn Opening Zukertort Variation.
    - Au coup 10, la position était légèrement meilleure pour l'adversaire.
    - Au coup 20, la position était perdante pour toi.
@@ -26,28 +26,27 @@ Généré le 2026-11-04 11:40 (heure de Zurich). Parties étudiées : celles du 
    - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
 2. https://www.chess.com/game/daily/1049939302
-   - Par correspondance (1/86400), tu jouais les noirs contre MaiBetterThanYasser (424) : victoire par mat.
+   - Par correspondance (1 jour(s) par coup), tu jouais les noirs contre MaiBetterThanYasser (424) : victoire par mat.
    - Ouverture : Caro Kann Defense.
    - Au coup 10, la position était légèrement meilleure pour toi.
    - Au coup 20, la position était gagnante pour toi.
    - Au coup 30, la position était gagnante pour toi.
    - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 7 occasions d'avantage ; tu en as saisi 5.
-   - Ton horloge est descendue à 0:01.
 3. https://www.chess.com/game/live/186468596546
-   - Blitz (180), tu jouais les blancs contre djcsd (236) : victoire par mat.
+   - Blitz (3 min), tu jouais les blancs contre djcsd (236) : victoire par mat.
    - Ouverture : Kings Pawn Opening Kings Knight.
    - Au coup 10, la position était gagnante pour toi.
    - Aucune erreur décisive : partie propre.
    - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
    - Ton horloge est descendue à 0:15.
 4. https://www.chess.com/game/live/186473509246
-   - Blitz (300), tu jouais les blancs contre ahmed_1_11 (231) : défaite par abandon.
+   - Blitz (5 min), tu jouais les blancs contre ahmed_1_11 (231) : défaite par abandon.
    - Ouverture : Petrovs Defense Three Knights Game.
    - Au coup 10, la position était perdante pour toi.
    - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
 5. https://www.chess.com/game/live/186474305994
-   - Bullet (120+1), tu jouais les noirs contre taidenyoung (134) : victoire au temps (l'adversaire a dépassé son temps).
+   - Bullet (2 min + 1 s), tu jouais les noirs contre taidenyoung (134) : victoire au temps (l'adversaire a dépassé son temps).
    - Ouverture : Caro Kann Defense Two Knights.
    - Au coup 10, la position était à peu près égale.
    - Au coup 20, la position était gagnante pour toi.
@@ -55,31 +54,31 @@ Généré le 2026-11-04 11:40 (heure de Zurich). Parties étudiées : celles du 
    - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
    - Ton horloge est descendue à 0:08.
 6. https://www.chess.com/game/live/186475832848
-   - Bullet (60), tu jouais les noirs contre jorgedu44 (159) : défaite par abandon.
+   - Bullet (1 min), tu jouais les noirs contre jorgedu44 (159) : défaite par abandon.
    - Ouverture : Reti Opening Slav Invitation.
    - 1 erreur décisive de ta part (perte d'au moins 2 pions).
    - Ton horloge est descendue à 0:18 ; 1 erreur(s) décisive(s) sous la minute.
 7. https://www.chess.com/game/live/186477266944
-   - Bullet (60), tu jouais les noirs contre Karosm2010 (200) : défaite au temps.
+   - Bullet (1 min), tu jouais les noirs contre Karosm2010 (200) : défaite au temps.
    - Ouverture : Caro Kann Defense.
    - Au coup 10, la position était nettement meilleure pour l'adversaire.
    - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
    - Ton horloge est descendue à 0:01 ; 3 erreur(s) décisive(s) sous la minute.
 8. https://www.chess.com/game/live/186487307762
-   - Blitz (300), tu jouais les blancs contre JojoOtso (221) : défaite partie quittée.
+   - Blitz (5 min), tu jouais les blancs contre JojoOtso (221) : défaite partie quittée.
    - Ouverture : Scandinavian Defense Closed.
    - Au coup 10, la position était gagnante pour toi.
    - 1 erreur décisive de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
 9. https://www.chess.com/game/live/186489489128
-   - Rapide (600), tu jouais les noirs contre RadePalica (446) : défaite par mat.
+   - Rapide (10 min), tu jouais les noirs contre RadePalica (446) : défaite par mat.
    - Ouverture : Caro Kann Defense.
    - Au coup 10, la position était nettement meilleure pour l'adversaire.
    - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 3.
 10. https://www.chess.com/game/live/186489730616
-   - Rapide (600), tu jouais les noirs contre Ignacio251314 (445) : défaite par mat.
+   - Rapide (10 min), tu jouais les noirs contre Ignacio251314 (445) : défaite par mat.
    - Ouverture : Caro Kann Defense.
    - Au coup 10, la position était nettement meilleure pour l'adversaire.
    - Au coup 20, la position était perdante pour toi.
@@ -137,6 +136,6 @@ Ouvre le lien Lichess (échiquier cliquable ; garde le moteur d'analyse éteint)
 Choisie parce que : 10 erreur(s) décisive(s) récente(s) de type « pièce laissée en prise ». Détail de la leçon dans programme.md.
 
 ## Pour aller plus loin
-- rapport.md : analyse détaillée et expliquée de chaque partie de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).
+- rapport.md : vue d'ensemble ; rapport/partie-N.md : analyse détaillée et expliquée de la partie N de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).
 - profil.md : profil durable et progression. programme.md : les leçons.
 

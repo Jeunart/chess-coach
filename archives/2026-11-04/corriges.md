@@ -73,7 +73,7 @@
 - Ton coup : le cavalier blanc va de d4 en e6 et prend le pion noir (Nxe6)
 - Meilleur coup : la dame blanche va de d1 en e2 (Qe2)
 - Perte mesurée : 2.0 pion(s) ; évaluation +6.9 avant, +4.8 après (profondeur 18)
-- Pourquoi : Pas de tactique immédiate : ton coup a surtout dégradé ta position.
+- Pourquoi : Pas de gain immédiat pour l'adversaire, mais après Bf2+ (dans la suite du moteur) le cavalier blanc en e6 est attaqué par une pièce de moindre valeur : ton coup te fait perdre du temps et de l'initiative.
 - Thème (étiquette automatique, approximative) : erreur positionnelle
 - Ce qui se passe après ton coup (ligne du moteur) :
   1. le fou noir va de c5 en f2 (échec) (Bf2+) - le cavalier blanc en e6 est attaqué par une pièce de moindre valeur

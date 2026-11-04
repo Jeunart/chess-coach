@@ -39,6 +39,20 @@ def decisive(e, floor=-300):
     return e["loss"] >= 200 and e["eb"] >= floor
 
 
+def ctrl_fr(ctrl):
+    """'600' -> '10 min', '180+2' -> '3 min + 2 s', '1/86400' -> '1 jour par coup'."""
+    try:
+        if "/" in ctrl:
+            n, sec = ctrl.split("/")
+            return f"{int(sec) // 86400} jour(s) par coup" if int(n) == 1 else ctrl
+        base, _, inc = ctrl.partition("+")
+        m = int(base)
+        txt = f"{m // 60} min" if m >= 60 and m % 60 == 0 else f"{m} s"
+        return txt + (f" + {inc} s" if inc else "")
+    except ValueError:
+        return ctrl
+
+
 def clock(sec):
     return "?" if sec is None else f"{sec // 60}:{sec % 60:02d}"
 
@@ -113,7 +127,7 @@ def story(g):
     ev = g["ev"]
     n = len(ev) - 1
     S = []
-    head = f"{TC_FR[g['tc']].capitalize()} ({g['ctrl']}), tu jouais les {'blancs' if g['white'] else 'noirs'} contre {g['opp']} ({g['opp_rating']}) : {outcome(g)} {ending(g)}."
+    head = f"{TC_FR[g['tc']].capitalize()} ({ctrl_fr(g['ctrl'])}), tu jouais les {'blancs' if g['white'] else 'noirs'} contre {g['opp']} ({g['opp_rating']}) : {outcome(g)} {ending(g)}."
     S.append(head)
     if g.get("opening") and g["opening"] != "inconnue":
         S.append(f"Ouverture : {g['opening']}.")
@@ -130,7 +144,7 @@ def story(g):
         S.append(f"L'adversaire t'a offert {t} occasion{'s' if t > 1 else ''} d'avantage ; tu en as saisi {tk}.")
     low = [e for e in dec if e["clk"] is not None and e["clk"] < 60]
     clks = [c for _, _, c in g["my"] if c is not None]
-    if clks and min(clks) < 30:
+    if g["tc"] != "daily" and clks and min(clks) < 30:
         S.append(f"Ton horloge est descendue à {clock(min(clks))}" + (f" ; {len(low)} erreur(s) décisive(s) sous la minute." if low else "."))
     return S
 
@@ -177,7 +191,7 @@ def solution_block(i, g, e, title="Position"):
     if deep:
         for c in deep["cands"][1:]:
             L.append(f"- Autre option solide : {facts.say_move(fen, c['uci'])} (évaluation {facts.fmt_eval(c['cp'], c.get('mate'))})")
-    if e.get("clk") is not None:
+    if e.get("clk") is not None and g["tc"] != "daily":
         L.append(f"- Temps restant sur ton horloge : {clock(e['clk'])}" + (" (moins d'une minute)" if e["clk"] < 60 else ""))
     L.append("")
     return L
