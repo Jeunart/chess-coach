@@ -10,6 +10,10 @@ on:
       date:
         description: "Date de la séance à régénérer (AAAA-MM-JJ), vide = aujourd'hui"
         required: false
+      mode:
+        description: "complet (défaut) ou diagnostic (compare les compteurs chess.com aux archives, ne modifie rien)"
+        required: false
+        default: "complet"
 permissions:
   contents: write
 concurrency:
@@ -28,11 +32,17 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y -q stockfish
           pip install chess
+      - name: Diagnostic d'import
+        if: github.event.inputs.mode == 'diagnostic'
+        run: python -m coach.diagnostic
       - name: Import et analyse
+        if: github.event.inputs.mode != 'diagnostic'
         run: python -m coach.analyse
       - name: Génération des fichiers
+        if: github.event.inputs.mode != 'diagnostic'
         run: python -m coach.render ${{ github.event.inputs.date }}
       - name: Publication
+        if: github.event.inputs.mode != 'diagnostic'
         run: |
           git config user.name "chess-coach-bot"
           git config user.email "bot@users.noreply.github.com"
