@@ -1,10 +1,20 @@
 name: analyse
 on:
   schedule:
-    - cron: "30 4 * * *"
+    # Deux passages (UTC) : GitHub retarde souvent les planifications de plusieurs heures.
+    # Le 2e rattrape les parties tardives (cache chess.com jusqu'à 12 h) ; sans changement, aucun commit.
+    - cron: "17 1 * * *"
+    - cron: "47 5 * * *"
   workflow_dispatch:
+    inputs:
+      date:
+        description: "Date de la séance à régénérer (AAAA-MM-JJ), vide = aujourd'hui"
+        required: false
 permissions:
   contents: write
+concurrency:
+  group: analyse
+  cancel-in-progress: false
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -18,13 +28,15 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y -q stockfish
           pip install chess
-      - run: python analyze_all.py
-      - run: python resume.py
-      - run: python digest.py
-      - run: |
+      - name: Import et analyse
+        run: python -m coach.analyse
+      - name: Génération des fichiers
+        run: python -m coach.render ${{ github.event.inputs.date }}
+      - name: Publication
+        run: |
           git config user.name "chess-coach-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data seance.md seances
-          git diff --cached --quiet || git commit -m "maj analyse"
+          git add data/v2 seance.md corriges.md rapport.md profil.md archives
+          git diff --cached --quiet || git commit -m "maj séance"
           git pull --rebase -q
           git push
