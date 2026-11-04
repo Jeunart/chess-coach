@@ -1,164 +1,142 @@
-# Séance coach - 2026-11-03
+# Séance du 2026-11-04
 
-## Bilan (30 dernières parties rapides)
-- Classement : 453 -> 446 ; victoires : 15/30
-- Bourdes décisives par partie : 4.2 (30 parties précédentes : 2.5)
+Généré le 2026-11-04 11:40 (heure de Zurich). Parties étudiées : celles du 2026-11-03.
 
-## Parties du 2026-11-02 (revue)
-- https://www.chess.com/game/live/186397478940 : blancs, perdue, 2 bourdes décisives
-- https://www.chess.com/game/live/186407415698 : noirs, gagnée, 1 bourdes décisives
-- https://www.chess.com/game/live/186410635090 : blancs, gagnée, 1 bourdes décisives
-- https://www.chess.com/game/live/186412330258 : blancs, perdue, 2 bourdes décisives
-- https://www.chess.com/game/live/186423864720 : noirs, perdue, 7 bourdes décisives
-- https://www.chess.com/game/live/186424612566 : blancs, gagnée, 6 bourdes décisives
-- https://www.chess.com/game/live/186425109780 : blancs, gagnée, 4 bourdes décisives
-- https://www.chess.com/game/live/186425761594 : blancs, perdue, 1 bourdes décisives
-Moments critiques (position jouable où j'ai perdu l'avantage) :
-Pour chaque position : montre l'échiquier tel quel, puis pose la question ; les coups sont décrits en mots avant la notation.
-Légende des échiquiers : MAJUSCULES = pièces blanches, minuscules = pièces noires ; K/k roi, Q/q dame, R/r tour, B/b fou, N/n cavalier, P/p pion ; . = case claire vide, # = case foncée vide. Notation des coups : K Roi, Q Dame, R Tour, B Fou, N Cavalier, aucune lettre = pion ; x = prise ; + = échec ; # = mat ; O-O = petit roque ; O-O-O = grand roque.
+## Contrôle des données
+- Parties importées au total : 906 (blitz 299, bullet 31, daily 30, rapid 546)
+- Parties de la veille importées et analysées : 10
+- Les données publiques de chess.com peuvent avoir jusqu'à 12 h de retard : une partie tardive apparaîtra dans le rapport suivant.
 
-### Moment 1 : https://www.chess.com/game/live/186397478940 coup 11, trait aux blancs (blancs en bas de l'échiquier)
-```
-8  r # . # k # . r
-7  p b p p # p p p
-6  . p . # . q . #
-5  # B b n P . # .
-4  . # . # . # . #
-3  # . # . # . # .
-2  P P P Q . P P P
-1  R N B . # R K .
-   a b c d e f g h
-```
-Blancs : Roi g1, Dame d2, Tours a1 f1, Fous b5 c1, Cavalier b1, Pions a2 b2 c2 e5 f2 g2 h2
-Noirs : Roi e8, Dame f6, Tours a8 h8, Fous b7 c5, Cavalier d5, Pions a7 b6 c7 d7 f7 g7 h7
-FEN : r3k2r/pbpp1ppp/1p3q2/1BbnP3/8/8/PPPQ1PPP/RNB2RK1 w kq - 5 11
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : la dame blanche va de d2 en e2 (Qe2)
-- Ligne du moteur (meilleur coup en premier) : 1) le pion blanc va de e5 en f6 et prend la dame noire (exf6) 2) le roi fait le grand roque (O-O-O) 3) la dame blanche va de d2 en d3 (Qd3) 4) le cavalier noir va de d5 en f6 et prend le pion blanc (Nxf6) 5) la dame blanche va de d3 en g3 (Qg3)
-- Perte : 6.4 pions ; type d'erreur : gain de pièce manqué
+## Bilan
+- Parties du 2026-11-03 : 10 (rapid 3, daily 1, blitz 3, bullet 3)
+- Résultats : 4 victoire(s), 0 nulle(s), 6 défaite(s)
+- Classement rapide : 454 -> 438
+- Classement blitz : 234 -> 218
+- Classement bullet : 154 -> 126
+- Classement par correspondance : 645 -> 645
+- Erreurs décisives par partie : 2.2 ce jour-là, 2.9 sur 30 jours
 
-### Moment 2 : https://www.chess.com/game/live/186397478940 coup 12, trait aux blancs (blancs en bas de l'échiquier)
-```
-8  r # . # k # . r
-7  p b p p # p p p
-6  . p . # . # q #
-5  # B b n P . # .
-4  . # . # . # . #
-3  # . # . # . # .
-2  P P P # Q P P P
-1  R N B . # R K .
-   a b c d e f g h
-```
-Blancs : Roi g1, Dame e2, Tours a1 f1, Fous b5 c1, Cavalier b1, Pions a2 b2 c2 e5 f2 g2 h2
-Noirs : Roi e8, Dame g6, Tours a8 h8, Fous b7 c5, Cavalier d5, Pions a7 b6 c7 d7 f7 g7 h7
-FEN : r3k2r/pbpp1ppp/1p4q1/1BbnP3/8/8/PPP1QPPP/RNB2RK1 w kq - 7 12
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : le fou blanc va de c1 en f4 (Bf4)
-- Ligne du moteur (meilleur coup en premier) : 1) la dame blanche va de e2 en f3 (Qf3) 2) le roi fait le grand roque (O-O-O) 3) le fou blanc va de b5 en d3 (Bd3) 4) la dame noire va de g6 en e6 (Qe6) 5) le fou blanc va de d3 en e4 (Be4)
-- Perte : 8.4 pions ; type d'erreur : mat subi
+## Parties de la veille (récit, sans les solutions)
+1. https://www.chess.com/game/live/186460690850
+   - Rapide (600), tu jouais les noirs contre Ranga1990 (442) : victoire par mat.
+   - Ouverture : Queens Pawn Opening Zukertort Variation.
+   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
+2. https://www.chess.com/game/daily/1049939302
+   - Par correspondance (1/86400), tu jouais les noirs contre MaiBetterThanYasser (424) : victoire par mat.
+   - Ouverture : Caro Kann Defense.
+   - Au coup 10, la position était légèrement meilleure pour toi.
+   - Au coup 20, la position était gagnante pour toi.
+   - Au coup 30, la position était gagnante pour toi.
+   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 7 occasions d'avantage ; tu en as saisi 5.
+   - Ton horloge est descendue à 0:01.
+3. https://www.chess.com/game/live/186468596546
+   - Blitz (180), tu jouais les blancs contre djcsd (236) : victoire par mat.
+   - Ouverture : Kings Pawn Opening Kings Knight.
+   - Au coup 10, la position était gagnante pour toi.
+   - Aucune erreur décisive : partie propre.
+   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
+   - Ton horloge est descendue à 0:15.
+4. https://www.chess.com/game/live/186473509246
+   - Blitz (300), tu jouais les blancs contre ahmed_1_11 (231) : défaite par abandon.
+   - Ouverture : Petrovs Defense Three Knights Game.
+   - Au coup 10, la position était perdante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+5. https://www.chess.com/game/live/186474305994
+   - Bullet (120+1), tu jouais les noirs contre taidenyoung (134) : victoire au temps (l'adversaire a dépassé son temps).
+   - Ouverture : Caro Kann Defense Two Knights.
+   - Au coup 10, la position était à peu près égale.
+   - Au coup 20, la position était gagnante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
+   - Ton horloge est descendue à 0:08.
+6. https://www.chess.com/game/live/186475832848
+   - Bullet (60), tu jouais les noirs contre jorgedu44 (159) : défaite par abandon.
+   - Ouverture : Reti Opening Slav Invitation.
+   - 1 erreur décisive de ta part (perte d'au moins 2 pions).
+   - Ton horloge est descendue à 0:18 ; 1 erreur(s) décisive(s) sous la minute.
+7. https://www.chess.com/game/live/186477266944
+   - Bullet (60), tu jouais les noirs contre Karosm2010 (200) : défaite au temps.
+   - Ouverture : Caro Kann Defense.
+   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
+   - Ton horloge est descendue à 0:01 ; 3 erreur(s) décisive(s) sous la minute.
+8. https://www.chess.com/game/live/186487307762
+   - Blitz (300), tu jouais les blancs contre JojoOtso (221) : défaite partie quittée.
+   - Ouverture : Scandinavian Defense Closed.
+   - Au coup 10, la position était gagnante pour toi.
+   - 1 erreur décisive de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
+9. https://www.chess.com/game/live/186489489128
+   - Rapide (600), tu jouais les noirs contre RadePalica (446) : défaite par mat.
+   - Ouverture : Caro Kann Defense.
+   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+   - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 3.
+10. https://www.chess.com/game/live/186489730616
+   - Rapide (600), tu jouais les noirs contre Ignacio251314 (445) : défaite par mat.
+   - Ouverture : Caro Kann Defense.
+   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
 
-### Moment 3 : https://www.chess.com/game/live/186407415698 coup 17, trait aux noirs (noirs en bas de l'échiquier)
-```
-1  R # B K . B . R
-2  P P # . # . P P
-3  . # P Q . P . N
-4  # b # . # . # .
-5  . # . # p # p #
-6  # . n . b . # p
-7  p p p # q # . #
-8  # k r . # . # r
-   h g f e d c b a
-```
-Blancs : Roi e1, Dame e3, Tours a1 h1, Fous c1 f1, Cavalier a3, Pions a2 b2 c3 f3 g2 h2
-Noirs : Roi g8, Dame d7, Tours a8 f8, Fous d6 g4, Cavalier f6, Pions a6 b5 d5 f7 g7 h7
-FEN : r4rk1/3q1ppp/p2b1n2/1p1p4/6b1/N1P1QP2/PP4PP/R1B1KB1R b KQ - 0 17
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : le fou noir va de g4 en h5 (Bh5)
-- Ligne du moteur (meilleur coup en premier) : 1) la tour noire va de a8 en e8 (Rae8) 2) le pion blanc va de f3 en g4 et prend le fou noir (fxg4) 3) le fou noir va de d6 en c5 (Bc5) 4) le cavalier blanc va de a3 en c2 (Nc2) 5) le fou noir va de c5 en e3 et prend la dame blanche (Bxe3)
-- Perte : 3.2 pions ; type d'erreur : autre erreur
+## Positions de la séance
+Ouvre le lien Lichess (échiquier cliquable ; garde le moteur d'analyse éteint), pense à voix haute, puis joue ton coup. Les corrigés sont dans corriges.md.
 
-### Moment 4 : https://www.chess.com/game/live/186410635090 coup 8, trait aux blancs (blancs en bas de l'échiquier)
-```
-8  r n b # k # . r
-7  p p p p # p p p
-6  . # . # . # q #
-5  # . b . p . # .
-4  . # B # P # . B
-3  # . # P # N # P
-2  P P P # . n P #
-1  R N # Q K . # R
-   a b c d e f g h
-```
-Blancs : Roi e1, Dame d1, Tours a1 h1, Fous c4 h4, Cavaliers b1 f3, Pions a2 b2 c2 d3 e4 g2 h3
-Noirs : Roi e8, Dame g6, Tours a8 h8, Fous c5 c8, Cavaliers b8 f2, Pions a7 b7 c7 d7 e5 f7 g7 h7
-FEN : rnb1k2r/pppp1ppp/6q1/2b1p3/2B1P2B/3P1N1P/PPP2nP1/RN1QK2R w KQkq - 0 8
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : le cavalier blanc va de f3 en e5 et prend le pion noir (Nxe5)
-- Ligne du moteur (meilleur coup en premier) : 1) le fou blanc va de h4 en f2 et prend le cavalier noir (Bxf2) 2) la dame noire va de g6 en g2 et prend le pion blanc (Qxg2) 3) la tour blanche va de h1 en f1 (Rf1) 4) le pion noir va de d7 en d5 (d5) 5) le pion blanc va de e4 en d5 et prend le pion noir (exd5)
-- Perte : 7.4 pions ; type d'erreur : pièce laissée en prise
+### Position 1 : coup 3 d'une partie en bullet
+- Partie : https://www.chess.com/game/live/186475832848
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/rnbqkbnr/pp2pppp/2p5/3p4/1P1N4/8/P1PPPPPP/RNBQKB1R_b_KQkq_-_0_3?color=black
+- FEN : rnbqkbnr/pp2pppp/2p5/3p4/1P1N4/8/P1PPPPPP/RNBQKB1R b KQkq - 0 3
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
+### Position 2 : coup 8 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/186489730616
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/r2qk1nr/pp3ppp/2n1p3/1Bbp1b2/8/2NP1Q2/PPP1NPPP/R1B2RK1_b_kq_-_3_8?color=black
+- FEN : r2qk1nr/pp3ppp/2n1p3/1Bbp1b2/8/2NP1Q2/PPP1NPPP/R1B2RK1 b kq - 3 8
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-## Puzzles tirés de mes anciennes bourdes (solution après ma réponse)
-### Puzzle 1 : https://www.chess.com/game/live/173019407538 coup 12, trait aux blancs (blancs en bas de l'échiquier)
-```
-8  N # b # . k n r
-7  p . # p # . p p
-6  . p n b . p . #
-5  # . # . # . # .
-4  . # B # q # . #
-3  # . # p # N # .
-2  P P P B . P P P
-1  R . # Q # R K .
-   a b c d e f g h
-```
-Blancs : Roi g1, Dame d1, Tours a1 f1, Fous c4 d2, Cavaliers a8 f3, Pions a2 b2 c2 f2 g2 h2
-Noirs : Roi f8, Dame e4, Tour h8, Fous c8 d6, Cavaliers c6 g8, Pions a7 b6 d3 d7 f6 g7 h7
-FEN : N1b2knr/p2p2pp/1pnb1p2/8/2B1q3/3p1N2/PPPB1PPP/R2Q1RK1 w - - 0 12
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : la tour blanche va de f1 en e1 (Re1)
-- Ligne du moteur (meilleur coup en premier) : 1) le fou blanc va de c4 en d3 et prend le pion noir (Bxd3) 2) la dame noire va de e4 en g4 (Qg4) 3) la tour blanche va de f1 en e1 (Re1) 4) le cavalier noir va de g8 en e7 (Nge7) 5) le pion blanc va de h2 en h3 (h3)
-- Perte : 5.4 pions
+### Position 3 : coup 6 d'une partie en blitz
+- Partie : https://www.chess.com/game/live/186473509246
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/rnbqk2r/ppp2ppp/3p4/2b5/4P1n1/2N2N2/PPPP1PPP/R1BQKB1R_w_KQkq_-_2_6
+- FEN : rnbqk2r/ppp2ppp/3p4/2b5/4P1n1/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 2 6
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Puzzle 2 : https://www.chess.com/game/live/173446410912 coup 6, trait aux blancs (blancs en bas de l'échiquier)
-```
-8  r n b # k # n r
-7  p p p p # p p p
-6  . # . # . # . #
-5  # B # . p . # .
-4  . b . # . # . #
-3  # . P q # N # .
-2  P P . P . P P P
-1  R N B Q # K # R
-   a b c d e f g h
-```
-Blancs : Roi f1, Dame d1, Tours a1 h1, Fous b5 c1, Cavaliers b1 f3, Pions a2 b2 c3 d2 f2 g2 h2
-Noirs : Roi e8, Dame d3, Tours a8 h8, Fous b4 c8, Cavaliers b8 g8, Pions a7 b7 c7 d7 e5 f7 g7 h7
-FEN : rnb1k1nr/pppp1ppp/8/1B2p3/1b6/2Pq1N2/PP1P1PPP/RNBQ1K1R w kq - 2 6
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : le roi blanc va de f1 en e1 (Ke1)
-- Ligne du moteur (meilleur coup en premier) : 1) le fou blanc va de b5 en d3 et prend la dame noire (Bxd3) 2) le fou noir va de b4 en d6 (Bd6) 3) le pion blanc va de a2 en a4 (a4) 4) le cavalier noir va de g8 en e7 (Ne7) 5) le pion blanc va de b2 en b4 (b4)
-- Perte : 9.2 pions
+### Position 4 : coup 10 d'une partie en blitz
+- Partie : https://www.chess.com/game/live/186487307762
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/rn2k2r/ppp2ppp/4p3/2b1P3/2BNn3/8/PPPP2PP/R1BQK2R_w_KQkq_-_1_10
+- FEN : rn2k2r/ppp2ppp/4p3/2b1P3/2BNn3/8/PPPP2PP/R1BQK2R w KQkq - 1 10
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Puzzle 3 : https://www.chess.com/game/live/184053717368 coup 20, trait aux noirs (noirs en bas de l'échiquier)
-```
-1  . K R # . # . #
-2  P P P . # . # P
-3  . # . P Q R . #
-4  # . # . P . P .
-5  . # . # p # N #
-6  p . p p # . # n
-7  . p . # q r p #
-8  # k r . # . # .
-   h g f e d c b a
-```
-Blancs : Roi g1, Dame d3, Tours c3 f1, Cavalier b5, Pions a2 b4 d4 e3 f2 g2 h2
-Noirs : Roi g8, Dame d7, Tours c7 f8, Cavalier a6, Pions b7 d5 e6 f6 g7 h6
-FEN : 5rk1/1prq2p1/n3pp1p/1N1p4/1P1P4/2RQP3/P4PPP/5RK1 b - - 2 20
-À RÉVÉLER SEULEMENT APRÈS MA RÉPONSE :
-- Mon coup : le pion noir va de e6 en e5 (e5)
-- Ligne du moteur (meilleur coup en premier) : 1) la tour noire va de c7 en c3 et prend la tour blanche (Rxc3) 2) le cavalier blanc va de b5 en c3 et prend la tour noire (Nxc3) 3) le cavalier noir va de a6 en b4 et prend le pion blanc (Nxb4) 4) la dame blanche va de d3 en b1 (Qb1) 5) le cavalier noir va de b4 en c6 (Nc6)
-- Perte : 3.8 pions
+### Position 5 (révision d'une erreur d'il y a 3 jours) : coup 32 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/186272604384
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/3k4/3q4/1p3p2/8/1Q6/8/PPP3P1/1K2R3_w_-_-_5_32
+- FEN : 3k4/3q4/1p3p2/8/1Q6/8/PPP3P1/1K2R3 w - - 5 32
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
+### Position 6 (révision d'une erreur d'il y a 7 jours) : coup 21 d'une partie en blitz
+- Partie : https://www.chess.com/game/live/186050930634
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/3k1r2/pp1n2pp/2p1p3/4P3/4b3/5B1P/P2Q1qPK/R7_b_-_-_3_21?color=black
+- FEN : 3k1r2/pp1n2pp/2p1p3/4P3/4b3/5B1P/P2Q1qPK/R7 b - - 3 21
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-## Focus et mini-cours : pièce laissée en prise
-Avant chaque coup : la pièce que je déplace est-elle protégée ? Une autre pièce reste-t-elle sans défense ?
+## Leçon du jour : L01 - Mes pièces sont-elles protégées ?
+(À annoncer APRÈS les positions : ce titre souffle le type d'erreur à chercher.)
+Choisie parce que : 10 erreur(s) décisive(s) récente(s) de type « pièce laissée en prise ». Détail de la leçon dans programme.md.
+
+## Pour aller plus loin
+- rapport.md : analyse détaillée et expliquée de chaque partie de la veille (contient les solutions : à ouvrir après les positions, ou à la demande de l'élève).
+- profil.md : profil durable et progression. programme.md : les leçons.
+

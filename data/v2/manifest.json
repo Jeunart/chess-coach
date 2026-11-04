@@ -1,0 +1,14 @@
+{
+ "archives": 5,
+ "total": {
+  "daily": 30,
+  "rapid": 546,
+  "blitz": 299,
+  "bullet": 31
+ },
+ "exclues": {},
+ "genere": "2026-11-04T11:30:14+01:00",
+ "analysees": 906,
+ "echecs": [],
+ "manquantes": 0
+}
