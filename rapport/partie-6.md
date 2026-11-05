@@ -1,33 +1,36 @@
-# Partie 6 du 2026-11-03
+# Partie 6 du 2026-11-04
 
-## Partie 6 : bullet - défaite par abandon
-- Lien : https://www.chess.com/game/live/186475832848
+## Partie 6 : rapide - défaite par mat
+- Lien : https://www.chess.com/game/live/186520731624
 
-- Bullet (1 min), tu jouais les noirs contre jorgedu44 (159) : défaite par abandon.
-- Ouverture : Reti Opening Slav Invitation.
+- Rapide (10 min), tu jouais les noirs contre Sneah38 (553) : défaite par mat.
+- Ouverture : Caro Kann Defense.
+- Au coup 10, la position était à peu près égale.
+- Au coup 20, la position était perdante pour toi.
+- Au coup 30, la position était perdante pour toi.
 - 1 erreur décisive de ta part (perte d'au moins 2 pions).
-- Ton horloge est descendue à 0:18 ; 1 erreur(s) décisive(s) sous la minute.
+- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
 - Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 6.1 (corrigé)
-- Partie : https://www.chess.com/game/live/186475832848 - coup 3, tu jouais les noirs
-- Ton coup : le fou noir va de c8 en f5 (Bf5)
-- Meilleur coup : le pion noir va de e7 en e5 (e5)
-- Perte mesurée : 6.6 pion(s) ; évaluation +2.5 avant, -4.1 après (profondeur 18)
-- Pourquoi : Après ton coup, la pièce que tu viens de déplacer (le fou noir en f5) n'était pas défendu : l'adversaire la prend avec Nxf5.
+- Partie : https://www.chess.com/game/live/186520731624 - coup 16, tu jouais les noirs
+- Ton coup : le fou noir va de f8 en c5 (Bc5)
+- Meilleur coup : le pion noir va de c6 en c5 (c5)
+- Perte mesurée : 5.1 pion(s) ; évaluation +1.0 avant, -4.0 après (profondeur 18)
+- Pourquoi : Après ton coup, la pièce que tu viens de déplacer (le fou noir en c5) n'était pas défendu : l'adversaire la prend avec Nxc5.
 - Thème (étiquette automatique, approximative) : pièce laissée en prise
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. le cavalier blanc va de d4 en f5 et prend le fou noir (Nxf5) - prise du fou noir
-  2. le pion noir va de e7 en e6 (e6) - le cavalier blanc en f5 est attaqué et n'est pas défendu
-  3. le cavalier blanc va de f5 en d4 (Nd4)
-  4. le pion noir va de a7 en a5 (a5)
+  1. le cavalier blanc va de a4 en c5 et prend le fou noir (Nxc5) - prise du fou noir ; la dame noire en d7 est attaquée par une pièce de moindre valeur
+  2. la dame noire va de d7 en d5 (Qd5) - le cavalier blanc en c5 est attaqué et n'est pas défendu
+  3. le cavalier blanc va de g3 en e4 (Nge4)
+  4. la dame noire va de d5 en a2 et prend le pion blanc (Qxa2) - prise du pion blanc
 - Ligne conseillée par le moteur, coup par coup :
-  1. le pion noir va de e7 en e5 (e5) - le cavalier blanc en d4 est attaqué et n'est pas défendu
-  2. le cavalier blanc va de d4 en f3 (Nf3)
-  3. le pion noir va de e5 en e4 (e4) - le cavalier blanc en f3 est attaqué par une pièce de moindre valeur
-  4. le cavalier blanc va de f3 en d4 (Nd4)
-  5. le fou noir va de f8 en b4 et prend le pion blanc (Bxb4) - prise du pion blanc
-- Autre option solide : la dame noire va de d8 en d6 (Qd6) (évaluation +1.0)
-- Autre option solide : le fou noir va de c8 en g4 (Bg4) (évaluation +0.8)
-- Temps restant sur ton horloge : 0:52 (moins d'une minute)
+  1. le pion noir va de c6 en c5 (c5) - le cavalier blanc en a4 est attaqué et n'est pas défendu
+  2. le cavalier blanc va de a4 en b6 (Nb6) - la tour noire en a8 est attaquée et n'est pas défendue ; la dame noire en d7 est attaquée par une pièce de moindre valeur
+  3. la dame noire va de d7 en e6 (Qe6) - le cavalier blanc en b6 est attaqué et n'est pas défendu
+  4. le cavalier blanc va de b6 en a8 et prend la tour noire (Nxa8) - prise de la tour noire
+  5. la dame noire va de e6 en a2 et prend le pion blanc (Qxa2) - prise du pion blanc
+- Autre option solide : la dame noire va de d7 en d5 (Qd5) (évaluation +1.1)
+- Autre option solide : le fou noir va de f8 en g7 (Bg7) (évaluation +0.9)
+- Temps restant sur ton horloge : 7:18
 
