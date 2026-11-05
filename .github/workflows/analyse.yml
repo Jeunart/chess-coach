@@ -1,10 +1,14 @@
 name: analyse
 on:
   schedule:
-    # Deux passages (UTC) : GitHub retarde souvent les planifications de plusieurs heures.
-    # Le 2e rattrape les parties tardives (cache chess.com jusqu'à 12 h) ; sans changement, aucun commit.
-    - cron: "17 1 * * *"
-    - cron: "47 5 * * *"
+    # Passages de nuit (UTC), tous après minuit à Zurich (la séance est datée du jour à Zurich).
+    # GitHub retarde souvent les planifications de plusieurs heures, voire en saute : on multiplie
+    # les créneaux pour que les données soient prêtes le matin. Sans changement, aucun commit ;
+    # le groupe de concurrence évite les exécutions simultanées.
+    - cron: "17 23 * * *"
+    - cron: "47 0 * * *"
+    - cron: "47 2 * * *"
+    - cron: "47 4 * * *"
   workflow_dispatch:
     inputs:
       date:
