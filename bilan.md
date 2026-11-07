@@ -61,12 +61,12 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - cadeaux de l'adversaire saisis : 1 sur 1
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 169 parties, 50 % de victoires, 3.1 erreur(s) décisive(s) par partie, classement 381 -> 446
-- Types d'erreurs : erreur positionnelle 36 %, pièce laissée en prise 31 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
-- Phase des erreurs : milieu 288, ouverture 155, finale 87
-- Erreurs décisives avec moins d'une minute à l'horloge : 17 sur 530
-- Parties non gagnées avec au moins 3 pions d'avantage : 57 sur 169
-- Ouvertures les plus jouées avec les blancs : Scotch Game (9V/0N/9D) ; Kings Pawn Opening Kings Knight (7V/1N/4D)
+- 173 parties, 49 % de victoires, 3.1 erreur(s) décisive(s) par partie, classement 381 -> 446
+- Types d'erreurs : erreur positionnelle 36 %, pièce laissée en prise 30 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
+- Phase des erreurs : milieu 292, ouverture 159, finale 91
+- Erreurs décisives avec moins d'une minute à l'horloge : 17 sur 542
+- Parties non gagnées avec au moins 3 pions d'avantage : 60 sur 173
+- Ouvertures les plus jouées avec les blancs : Scotch Game (9V/0N/10D) ; Kings Pawn Opening Kings Knight (7V/1N/4D)
 - Ouvertures les plus jouées avec les noirs : Caro Kann Defense (11V/1N/11D) ; Alekhines Defense Scandinavian Variation (3V/0N/0D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
