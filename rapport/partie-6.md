@@ -1,14 +1,13 @@
-# Partie 6 du 2026-11-06
+# Partie 6 du 2026-11-07
 
-## Partie 6 : blitz - victoire par abandon de l'adversaire
-- Lien : https://www.chess.com/game/live/186649964734
+## Partie 6 : par correspondance - défaite par abandon
+- Lien : https://www.chess.com/game/daily/1057421710
 
-- Blitz (5 min), tu jouais les blancs contre Little-Dark_Age (183) : victoire par abandon de l'adversaire.
-- Ouverture : Four Knights Game Spanish Variation.
-- Au coup 10, la position était nettement meilleure pour toi.
+- Par correspondance (1 jour(s) par coup), tu jouais les blancs contre Phil_ie (681) : défaite par abandon.
+- Ouverture : Scotch Game Classical Variation.
+- Au coup 10, la position était nettement meilleure pour l'adversaire.
 - Aucune erreur décisive : partie propre.
-- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
-- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué d6 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- Théorie d'ouverture : Au coup 5 des blancs, tu as joué c3 au lieu de Be3 (coup du livret). Avant, la partie suivait la ligne « 4...Fc5 » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
 
 Aucun moment clé à corriger dans cette partie.
 
