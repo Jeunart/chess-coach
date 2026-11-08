@@ -94,11 +94,11 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - théorie : Au coup 5 des blancs, tu as joué c3 au lieu de Be3 (coup du livret). Avant, la partie suivait la ligne « 4...Fc5 » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 172 parties, 51 % de victoires, 3.1 erreur(s) décisive(s) par partie, classement 358 -> 478
-- Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 29 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
-- Phase des erreurs : milieu 283, ouverture 159, finale 91
-- Erreurs décisives avec moins d'une minute à l'horloge : 17 sur 533
-- Parties non gagnées avec au moins 3 pions d'avantage : 57 sur 172
+- 175 parties, 52 % de victoires, 3.1 erreur(s) décisive(s) par partie, classement 358 -> 502
+- Types d'erreurs : erreur positionnelle 36 %, pièce laissée en prise 29 %, menace adverse ignorée 11 %, gain de matériel manqué 8 %
+- Phase des erreurs : milieu 293, ouverture 161, finale 91
+- Erreurs décisives avec moins d'une minute à l'horloge : 17 sur 545
+- Parties non gagnées avec au moins 3 pions d'avantage : 57 sur 175
 - Ouvertures les plus jouées avec les blancs : Scotch Game (10V/0N/10D) ; Kings Pawn Opening Kings Knight (7V/1N/4D)
 - Ouvertures les plus jouées avec les noirs : Caro Kann Defense (12V/1N/11D) ; Alekhines Defense Scandinavian Variation (3V/0N/0D)
 
