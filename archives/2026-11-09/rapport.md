@@ -1,6 +1,6 @@
 # Rapport du 2026-11-09 : vue d'ensemble
 
-Généré le 2026-11-09 03:40 (heure de Zurich). Parties du 2026-11-08.
+Généré le 2026-11-09 08:16 (heure de Zurich). Parties du 2026-11-08.
 Chaque partie a son fichier détaillé (récit, moments clés, solutions). Lis seulement celui de la partie demandée.
 
 ## Contrôle des données
