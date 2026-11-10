@@ -1,14 +1,15 @@
-# Partie 8 du 2026-11-08
+# Partie 8 du 2026-11-09
 
-## Partie 8 : blitz - victoire par mat
-- Lien : https://www.chess.com/game/live/186780983032
+## Partie 8 : rapide - victoire par mat
+- Lien : https://www.chess.com/game/live/186852693978
 
-- Blitz (5 min), tu jouais les blancs contre MAAAGIIIi (223) : victoire par mat.
-- Ouverture : Scotch Game.
+- Rapide (10 min), tu jouais les noirs contre Adz-87 (448) : victoire par mat.
+- Ouverture : Queens Pawn Opening Chigorin Variation.
 - Au coup 10, la position était gagnante pour toi.
+- Au coup 20, la position était gagnante pour toi.
 - Aucune erreur décisive : partie propre.
-- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 3.
-- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué d5 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 Aucun moment clé à corriger dans cette partie.
 
