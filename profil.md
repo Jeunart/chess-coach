@@ -3,15 +3,15 @@
 Mis à jour le 2026-11-10. Toutes cadences (bullet, blitz, rapide, par correspondance).
 
 ## Par cadence
-- Rapide : 586 parties, 49 % de victoires, classement actuel 471 (il y a 30 jours : 357)
+- Rapide : 587 parties, 49 % de victoires, classement actuel 479 (il y a 30 jours : 357)
 - Blitz : 337 parties, 48 % de victoires, classement actuel 230 (il y a 30 jours : 100)
 - Bullet : 36 parties, 41 % de victoires, classement actuel 128 (il y a 30 jours : 107)
 - Par correspondance : 32 parties, 50 % de victoires, classement actuel 611 (il y a 30 jours : 464)
 
 ## Erreurs décisives par partie (perte d'au moins 2 pions, position pas déjà perdue)
-- 7 derniers jours : 3.0 (86 parties)
-- 30 derniers jours : 2.9 (387 parties)
-- 90 derniers jours : 3.3 (987 parties)
+- 7 derniers jours : 3.0 (87 parties)
+- 30 derniers jours : 2.9 (388 parties)
+- 90 derniers jours : 3.2 (988 parties)
 - Tendance : 2.9 sur 30 jours contre 3.3 sur les 30 jours précédents (en baisse)
 
 ## Types d'erreurs décisives (30 derniers jours / total)
@@ -32,7 +32,7 @@ Mis à jour le 2026-11-10. Toutes cadences (bullet, blitz, rapide, par correspon
 - Erreurs décisives avec moins d'une minute à l'horloge : 309
 
 ## Avantages non convertis
-- Parties non gagnées où tu as eu au moins 3 pions d'avantage : 339 sur 991
+- Parties non gagnées où tu as eu au moins 3 pions d'avantage : 339 sur 992
   - https://www.chess.com/game/live/186837015534 (2026-11-09, défaite par abandon)
   - https://www.chess.com/game/live/186843589822 (2026-11-09, défaite par abandon)
   - https://www.chess.com/game/live/186862350694 (2026-11-09, défaite par mat)
