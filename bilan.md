@@ -67,13 +67,13 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - cadeaux de l'adversaire saisis : 2 sur 3
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 170 parties, 52 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 357 -> 479
-- Types d'erreurs : erreur positionnelle 36 %, pièce laissée en prise 29 %, menace adverse ignorée 11 %, gain de matériel manqué 9 %
-- Phase des erreurs : milieu 272, ouverture 151, finale 90
-- Erreurs décisives avec moins d'une minute à l'horloge : 17 sur 513
-- Parties non gagnées avec au moins 3 pions d'avantage : 55 sur 170
-- Ouvertures les plus jouées avec les blancs : Scotch Game (10V/0N/11D) ; Kings Pawn Opening Kings Knight (7V/1N/4D)
-- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (12V/1N/12D) ; Van t Kruijs Opening (2V/0N/1D)
+- 175 parties, 53 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 357 -> 504
+- Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 29 %, menace adverse ignorée 10 %, gain de matériel manqué 9 %
+- Phase des erreurs : milieu 277, ouverture 153, finale 98
+- Erreurs décisives avec moins d'une minute à l'horloge : 24 sur 528
+- Parties non gagnées avec au moins 3 pions d'avantage : 56 sur 175
+- Ouvertures les plus jouées avec les blancs : Scotch Game (11V/0N/11D) ; Kings Pawn Opening Kings Knight (8V/1N/4D)
+- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (13V/1N/12D) ; Caro Kann Defense Advance Variation (2V/0N/2D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
 1. Pièce laissée en prise - Avant chaque coup, deux questions : « La pièce que je déplace est-elle défendue ? Qu'est-ce que mon coup laisse sans défense ? »
