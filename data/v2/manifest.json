@@ -3,12 +3,12 @@
  "total": {
   "daily": 32,
   "rapid": 603,
-  "blitz": 343,
+  "blitz": 344,
   "bullet": 37
  },
  "exclues": {},
- "genere": "2026-11-11T03:48:41+01:00",
- "analysees": 1015,
+ "genere": "2026-11-11T08:14:52+01:00",
+ "analysees": 1016,
  "echecs": [],
  "manquantes": 0
 }
