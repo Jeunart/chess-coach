@@ -137,13 +137,13 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - cadeaux de l'adversaire saisis : 2 sur 5
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 185 parties, 51 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 349 -> 482
-- Types d'erreurs : erreur positionnelle 38 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 9 %
-- Phase des erreurs : milieu 293, ouverture 161, finale 108
-- Erreurs décisives avec moins d'une minute à l'horloge : 24 sur 562
-- Parties non gagnées avec au moins 3 pions d'avantage : 60 sur 185
+- 193 parties, 51 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 349 -> 496
+- Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
+- Phase des erreurs : milieu 301, ouverture 161, finale 108
+- Erreurs décisives avec moins d'une minute à l'horloge : 24 sur 570
+- Parties non gagnées avec au moins 3 pions d'avantage : 62 sur 193
 - Ouvertures les plus jouées avec les blancs : Scotch Game (11V/0N/11D) ; Kings Pawn Opening Kings Knight (8V/2N/6D)
-- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (13V/1N/13D) ; Caro Kann Defense Advance Variation (2V/0N/3D)
+- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (14V/1N/13D) ; Caro Kann Defense Advance Variation (2V/0N/3D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
 1. Erreur positionnelle - Dans le calme, choisis un plan simple (développer, roquer, activer la dernière pièce) et vérifie que ton coup ne gêne pas tes pièces.
