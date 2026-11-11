@@ -1,15 +1,13 @@
-# Partie 3 du 2026-11-09
+# Partie 3 du 2026-11-10
 
-## Partie 3 : blitz - victoire par abandon de l'adversaire
-- Lien : https://www.chess.com/game/live/186834356490
+## Partie 3 : rapide - victoire l'adversaire a quitté la partie
+- Lien : https://www.chess.com/game/live/186907771386
 
-- Blitz (5 min), tu jouais les noirs contre irul0305 (195) : victoire par abandon de l'adversaire.
-- Ouverture : Queens Pawn Opening.
-- Au coup 10, la position était gagnante pour toi.
-- Au coup 20, la position était gagnante pour toi.
+- Rapide (10 min), tu jouais les blancs contre eyypisa (485) : victoire l'adversaire a quitté la partie.
+- Ouverture : Scotch Game.
 - Aucune erreur décisive : partie propre.
-- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 3.
-- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué f6 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
 
 Aucun moment clé à corriger dans cette partie.
 
