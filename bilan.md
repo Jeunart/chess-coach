@@ -1,151 +1,168 @@
-# Bilan de la veille (2026-11-12)
+# Bilan de la veille (2026-11-13)
 
 Calculé par le robot à partir des parties analysées (Stockfish). Les thèmes sont des étiquettes automatiques, approximatives.
 Le coach explique ces faits avec ses mots, sans rien recalculer.
 
 ## Vue d'ensemble
-- Rapide : 12 partie(s), 6 victoire(s), classement 528 -> 513, 2.2 erreur(s) décisive(s) par partie
-- Blitz : 6 partie(s), 3 victoire(s), classement 240 -> 249, 2.5 erreur(s) décisive(s) par partie
-- Bullet : 5 partie(s), 3 victoire(s), classement 152 -> 152, 1.0 erreur(s) décisive(s) par partie
-- Par correspondance : 1 partie(s), 1 victoire(s), classement 611 -> 611, 2.0 erreur(s) décisive(s) par partie
+- Rapide : 14 partie(s), 7 victoire(s), classement 521 -> 530, 3.6 erreur(s) décisive(s) par partie
+- Blitz : 9 partie(s), 6 victoire(s), classement 257 -> 273, 2.6 erreur(s) décisive(s) par partie
+- Bullet : 3 partie(s), 1 victoire(s), classement 143 -> 142, 1.7 erreur(s) décisive(s) par partie
 
 ## Focus : rapides 10 et 15 minutes
-- 12 partie(s) ce jour-là ; durées : 10 min, 10 min + 5 s
+- 14 partie(s) ce jour-là ; durées : 10 min
 - Aucune partie de 15 minutes ce jour-là.
-- Partie 1 (10 min, blancs, contre 524) : victoire au temps (l'adversaire a dépassé son temps). Ouverture : Sicilian Defense Marshall Counterattack. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-1.md
-  - coup 17 (milieu) : Re2, perte 2.1 pion(s), thème automatique : erreur positionnelle, horloge 5:35
-  - coup 27 (finale) : Bxf6, perte 2.4 pion(s), thème automatique : pièce laissée en prise, horloge 2:05
+- Partie 1 (10 min, blancs, contre 521) : victoire par mat. Ouverture : Kings Pawn Opening Kings Knight. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-1.md
+  - coup 6 (ouverture) : Bb5, perte 4.6 pion(s), thème automatique : gain de matériel manqué, horloge 8:59
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 2 sur 3
-- Partie 9 (10 min, blancs, contre 501) : victoire par abandon de l'adversaire. Ouverture : Scotch Game. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-9.md
-  - théorie : Au coup 4 des noirs, l'adversaire a joué d5 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 2 sur 2
-- Partie 10 (10 min, noirs, contre 545) : défaite par abandon. Ouverture : Caro Kann Defense. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-10.md
-  - coup 19 (milieu) : Qg6, perte 4.7 pion(s), thème automatique : menace adverse ignorée, horloge 5:42
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 3 sur 6
-- Partie 12 (10 min, blancs, contre 539) : nulle par répétition. Ouverture : Scotch Game. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-12.md
-  - coup 7 (ouverture) : Bg5, perte 3.2 pion(s), thème automatique : erreur positionnelle, horloge 9:11
-  - coup 23 (milieu) : g3, perte 2.4 pion(s), thème automatique : erreur positionnelle, horloge 5:24
-  - coup 46 (finale) : Kf4, perte 7.1 pion(s), thème automatique : erreur positionnelle, horloge 1:44
-  - théorie : Au coup 4 des noirs, l'adversaire a joué Nxd4 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 2 sur 3
-  - avantage non converti : jusqu'à +7.1 pions, mais la partie n'a pas été gagnée
-- Partie 14 (10 min, noirs, contre 517) : défaite par mat. Ouverture : Caro Kann Defense. 6 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-14.md
-  - coup 14 (milieu) : c5, perte 4.0 pion(s), thème automatique : fourchette subie, horloge 8:20
-  - coup 18 (milieu) : Qxh3, perte 8.1 pion(s), thème automatique : erreur positionnelle, horloge 7:44
-  - coup 26 (finale) : Bxc2, perte 8.1 pion(s), thème automatique : mat subi, horloge 5:44
-  - théorie : Au coup 3 des blancs, l'adversaire a joué exd5 au lieu de Nf3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : deux cavaliers (2.Cc3)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 1 sur 4
-  - avantage non converti : jusqu'à +8.1 pions, mais la partie n'a pas été gagnée
-- Partie 16 (10 min + 5 s, noirs, contre 467) : victoire par abandon de l'adversaire. Ouverture : Scandinavian Defense Closed. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-16.md
-  - coup 5 (ouverture) : a6, perte 2.6 pion(s), thème automatique : erreur positionnelle, horloge 9:57
-  - coup 8 (ouverture) : Bd7, perte 4.1 pion(s), thème automatique : gain de matériel manqué, horloge 9:25
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 1 sur 2
-- Partie 17 (10 min, blancs, contre 437) : victoire par abandon de l'adversaire. Ouverture : Alekhines Defense Scandinavian Variation. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-17.md
-  - coup 8 (ouverture) : Ne5, perte 2.4 pion(s), thème automatique : pièce laissée en prise, horloge 8:56
-  - coup 11 (milieu) : Qe2, perte 5.3 pion(s), thème automatique : pièce laissée en prise, horloge 7:47
-  - coup 14 (milieu) : Nxb4, perte 2.7 pion(s), thème automatique : pièce laissée en prise, horloge 6:08
-  - théorie : Au coup 3 des blancs, tu as joué Nc3 au lieu de d4 (coup du livret). Avant, la partie suivait la ligne « 2...Cf6 » (Contre la Scandinave (1.e4 d5)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 3 sur 6
-- Partie 18 (10 min, noirs, contre 496) : victoire l'adversaire a quitté la partie. Ouverture : Queens Pawn Opening Chigorin Variation. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-18.md
-  - coup 23 (milieu) : Qh2, perte 5.5 pion(s), thème automatique : pièce laissée en prise, horloge 4:06
-  - coup 26 (finale) : Rc8, perte 3.2 pion(s), thème automatique : gain de matériel manqué, horloge 3:37
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 5 sur 8
-- Partie 19 (10 min, blancs, contre 527) : défaite par mat. Ouverture : Scotch Game. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-19.md
-  - coup 8 (ouverture) : Nb6, perte 9.6 pion(s), thème automatique : mat subi, horloge 8:30
-  - coup 20 (milieu) : Be2, perte 8.2 pion(s), thème automatique : pièce laissée en prise, horloge 6:59
-  - théorie : Au coup 3 des noirs, l'adversaire a joué d5 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 4 sur 4
-  - avantage non converti : jusqu'à +5.4 pions, mais la partie n'a pas été gagnée
-- Partie 21 (10 min, noirs, contre 542) : défaite par abandon. Ouverture : English Opening Caro Kann Defensive. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-21.md
-  - coup 8 (ouverture) : Qd7, perte 4.5 pion(s), thème automatique : pièce laissée en prise, horloge 8:42
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-- Partie 22 (10 min, blancs, contre 491) : victoire par abandon de l'adversaire. Ouverture : Nimzowitsch Defense Declined. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-22.md
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 2 sur 2
-- Partie 23 (10 min, blancs, contre 551) : défaite par mat. Ouverture : French Defense Advance Nimzowitsch System. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-23.md
-  - coup 9 (ouverture) : Nc7+, perte 7.9 pion(s), thème automatique : erreur positionnelle, horloge 8:00
+- Partie 2 (10 min, noirs, contre 539) : défaite par abandon. Ouverture : Caro Kann Defense Advance Short. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-2.md
+  - coup 11 (milieu) : Qa5, perte 4.0 pion(s), thème automatique : pièce laissée en prise, horloge 7:11
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 0 sur 1
-  - avantage non converti : jusqu'à +3.5 pions, mais la partie n'a pas été gagnée
+- Partie 4 (10 min, noirs, contre 489) : victoire par mat. Ouverture : Caro Kann Defense. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-4.md
+  - coup 11 (milieu) : O-O, perte 4.5 pion(s), thème automatique : pièce laissée en prise, horloge 8:36
+  - coup 18 (milieu) : Qd6, perte 7.3 pion(s), thème automatique : erreur positionnelle, horloge 7:24
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 1 sur 2
+- Partie 5 (10 min, blancs, contre 523) : défaite par abandon. Ouverture : Scotch Game. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-5.md
+  - coup 20 (milieu) : Qg6+, perte 9.4 pion(s), thème automatique : pièce laissée en prise, horloge 4:38
+  - théorie : Au coup 4 des noirs, l'adversaire a joué Nxd4 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+  - avantage non converti : jusqu'à +5.0 pions, mais la partie n'a pas été gagnée
+- Partie 6 (10 min, blancs, contre 517) : victoire par mat. Ouverture : Kings Pawn Opening Kings Knight. 3 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-6.md
+  - coup 6 (ouverture) : dxe5, perte 3.1 pion(s), thème automatique : menace adverse ignorée, horloge 8:40
+  - coup 23 (milieu) : Rxf8+, perte 2.7 pion(s), thème automatique : mat manqué, horloge 4:06
+  - coup 33 (finale) : Kf5, perte 2.8 pion(s), thème automatique : mat manqué, horloge 2:56
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 5 sur 7
+- Partie 7 (10 min, blancs, contre 502) : victoire par abandon de l'adversaire. Ouverture : Scandinavian Defense Mieses Kotrc Variation. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-7.md
+  - théorie : Au coup 3 des noirs, l'adversaire a joué Qd8 au lieu de Qa5 (coup du livret). Avant, la partie suivait la ligne « 2...Dxd5 » (Contre la Scandinave (1.e4 d5)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 2 sur 2
+- Partie 8 (10 min, noirs, contre 530) : victoire par mat. Ouverture : Caro Kann Defense Exchange Variation. 5 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-8.md
+  - coup 7 (ouverture) : Bf5, perte 6.0 pion(s), thème automatique : pièce laissée en prise, horloge 9:13
+  - coup 22 (milieu) : Rxb6, perte 3.5 pion(s), thème automatique : gain de matériel manqué, horloge 3:49
+  - coup 31 (finale) : Nc4, perte 4.5 pion(s), thème automatique : menace adverse ignorée, horloge 2:01
+  - théorie : Au coup 4 des blancs, l'adversaire a joué Nc3 au lieu de Bd3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante d'échange (3.exd5)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 3 sur 5
+- Partie 12 (10 min, noirs, contre 515) : victoire par abandon de l'adversaire. Ouverture : English Opening Caro Kann Defensive. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-12.md
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 2 sur 3
+- Partie 19 (10 min, noirs, contre 566) : défaite par mat. Ouverture : Caro Kann Defense. 5 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-19.md
+  - coup 11 (milieu) : e5, perte 2.0 pion(s), thème automatique : erreur positionnelle, horloge 8:34
+  - coup 15 (milieu) : Rxa7, perte 5.9 pion(s), thème automatique : gain de matériel manqué, horloge 7:55
+  - coup 20 (milieu) : Re8, perte 8.9 pion(s), thème automatique : gain de matériel manqué, horloge 7:09
+  - théorie : Au coup 3 des noirs, tu as joué Nf6 au lieu de dxe4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante classique (3.Cc3)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 2 sur 4
+  - avantage non converti : jusqu'à +5.8 pions, mais la partie n'a pas été gagnée
+- Partie 20 (10 min, blancs, contre 541) : défaite par abandon. Ouverture : Scandinavian Defense Mieses Kotrc Variation. 10 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-20.md
+  - coup 15 (milieu) : dxc5, perte 6.7 pion(s), thème automatique : menace adverse ignorée, horloge 7:34
+  - coup 20 (milieu) : Nd7, perte 3.7 pion(s), thème automatique : erreur positionnelle, horloge 6:29
+  - coup 24 (milieu) : Qxd7+, perte 7.3 pion(s), thème automatique : pièce laissée en prise, horloge 5:19
+  - théorie : Au coup 3 des noirs, l'adversaire a joué Qd8 au lieu de Qa5 (coup du livret). Avant, la partie suivait la ligne « 2...Dxd5 » (Contre la Scandinave (1.e4 d5)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 1 sur 8
+  - avantage non converti : jusqu'à +4.7 pions, mais la partie n'a pas été gagnée
+- Partie 23 (10 min, blancs, contre 529) : nulle par répétition. Ouverture : French Defense Normal Variation. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-23.md
+  - coup 16 (milieu) : Rae1, perte 4.8 pion(s), thème automatique : menace adverse ignorée, horloge 6:55
+  - coup 41 (finale) : Kf4, perte 4.1 pion(s), thème automatique : erreur positionnelle, horloge 3:37
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 0 sur 1
+  - avantage non converti : jusqu'à +3.9 pions, mais la partie n'a pas été gagnée
+- Partie 24 (10 min, blancs, contre 536) : nulle par pat. Ouverture : Petrovs Defense Three Knights Game. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-24.md
+  - coup 18 (milieu) : Kd2, perte 2.4 pion(s), thème automatique : erreur positionnelle, horloge 7:06
+  - coup 41 (finale) : Rg4, perte 10.0 pion(s), thème automatique : mat manqué, horloge 5:22
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 5 sur 5
+  - avantage non converti : jusqu'à +10.0 pions, mais la partie n'a pas été gagnée
+- Partie 25 (10 min, noirs, contre 534) : victoire par abandon de l'adversaire. Ouverture : Caro Kann Defense. 9 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-25.md
+  - coup 8 (ouverture) : Qxd5, perte 3.6 pion(s), thème automatique : fourchette subie, horloge 8:34
+  - coup 18 (milieu) : Rxf4, perte 6.2 pion(s), thème automatique : mat manqué, horloge 7:14
+  - coup 38 (finale) : Qc8+, perte 3.1 pion(s), thème automatique : erreur positionnelle, horloge 2:42
+  - coup 52 (finale) : h2, perte 3.7 pion(s), thème automatique : erreur positionnelle, horloge 1:08
+  - théorie : Au coup 3 des blancs, l'adversaire a joué d4 au lieu de Nf3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : deux cavaliers (2.Cc3)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 3 sur 7
+- Partie 26 (10 min, noirs, contre 569) : défaite par mat. Ouverture : Caro Kann Defense. 9 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-26.md
+  - coup 20 (milieu) : O-O, perte 6.9 pion(s), thème automatique : menace adverse ignorée, horloge 5:50
+  - coup 25 (milieu) : Kxf8, perte 9.9 pion(s), thème automatique : menace adverse ignorée, horloge 4:21
+  - coup 32 (finale) : Rxc2, perte 7.5 pion(s), thème automatique : erreur positionnelle, horloge 2:19
+  - coup 36 (finale) : Re2, perte 14.4 pion(s), thème automatique : mat manqué, horloge 1:47
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 3 sur 7
+  - avantage non converti : jusqu'à +10.0 pions, mais la partie n'a pas été gagnée
 
 ## Toutes les autres parties du jour (même détail)
-- Partie 2 (5 min, noirs, contre 248) : défaite par abandon. Ouverture : Caro Kann Defense. 3 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-2.md
-  - coup 14 (milieu) : Nxd4, perte 3.5 pion(s), thème automatique : pièce laissée en prise, horloge 2:54
-  - coup 18 (milieu) : Be3, perte 2.5 pion(s), thème automatique : pièce laissée en prise, horloge 2:19
-  - coup 30 (finale) : Qe1, perte 9.0 pion(s), thème automatique : pièce laissée en prise, horloge 0:15
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 3 sur 5
-  - avantage non converti : jusqu'à +6.1 pions, mais la partie n'a pas été gagnée
-- Partie 3 (5 min, blancs, contre 233) : victoire l'adversaire a quitté la partie. Ouverture : Scotch Game. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-3.md
-  - théorie : Au coup 3 des noirs, l'adversaire a joué Bb4+ au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
-  - cadeaux de l'adversaire saisis : 1 sur 1
-- Partie 4 (5 min, noirs, contre 236) : victoire par abandon de l'adversaire. Ouverture : Caro Kann Defense. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-4.md
-  - coup 5 (ouverture) : Be6, perte 2.9 pion(s), thème automatique : erreur positionnelle, horloge 4:27
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 1 sur 4
-- Partie 5 (5 min, noirs, contre 252) : défaite au temps. Ouverture : Caro Kann Defense. 7 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-5.md
-  - coup 4 (ouverture) : Bg4, perte 5.7 pion(s), thème automatique : erreur positionnelle, horloge 4:23
-  - coup 17 (milieu) : Bxb2, perte 7.6 pion(s), thème automatique : pièce laissée en prise, horloge 1:56
-  - coup 24 (milieu) : Qc8, perte 5.1 pion(s), thème automatique : mat manqué, horloge 0:15
-  - coup 28 (finale) : Rc8, perte 9.0 pion(s), thème automatique : pièce laissée en prise, horloge 0:05
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 4 sur 7
-  - avantage non converti : jusqu'à +10.0 pions, mais la partie n'a pas été gagnée
-- Partie 6 (5 min, blancs, contre 263) : victoire l'adversaire a quitté la partie. Ouverture : Kings Pawn Opening Kings Knight. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-6.md
+- Partie 9 (5 min, noirs, contre 227) : victoire par abandon de l'adversaire. Ouverture : Caro Kann Defense Breyer Variation. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-9.md
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 1 sur 1
-- Partie 24 (5 min, noirs, contre 277) : défaite par abandon. Ouverture : Caro Kann Defense. 3 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-24.md
-  - coup 8 (ouverture) : e5, perte 4.2 pion(s), thème automatique : erreur positionnelle, horloge 3:58
-  - coup 17 (milieu) : Bc5+, perte 2.7 pion(s), thème automatique : erreur positionnelle, horloge 2:38
-  - coup 20 (milieu) : f6, perte 2.8 pion(s), thème automatique : fourchette subie, horloge 2:02
-  - théorie : Au coup 3 des noirs, tu as joué Nf6 au lieu de dxe4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante classique (3.Cc3)). Ligne complète et position finale : theorie.md.
-- Partie 15 (3 jour(s) par coup, noirs, contre 681) : victoire par mat. Ouverture : Caro Kann Defense. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-15.md
-  - coup 4 (ouverture) : Bg4, perte 4.4 pion(s), thème automatique : gain de matériel manqué, horloge 2:25
-  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 3 sur 5
-- Partie 7 (2 min + 1 s, noirs, contre 155) : victoire par mat. Ouverture : Queens Pawn Opening Accelerated London. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-7.md
-  - coup 14 (milieu) : Qf1+, perte 5.6 pion(s), thème automatique : pièce laissée en prise, horloge 1:22
+- Partie 11 (5 min, noirs, contre 238) : victoire par mat. Ouverture : Caro Kann Defense Two Knights. 3 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-11.md
+  - coup 14 (milieu) : Bb7, perte 2.5 pion(s), thème automatique : fourchette subie, horloge 3:25
+  - coup 19 (milieu) : Rc2, perte 2.3 pion(s), thème automatique : menace adverse ignorée, horloge 2:05
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 2 sur 2
-- Partie 8 (2 min + 1 s, blancs, contre 139) : victoire au temps (l'adversaire a dépassé son temps). Ouverture : Scandinavian Defense Mieses Kotrc Variation. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-8.md
-  - coup 19 (milieu) : Nxf7, perte 2.5 pion(s), thème automatique : pièce laissée en prise, horloge 0:38
-  - théorie : Au coup 3 des noirs, l'adversaire a joué Qd8 au lieu de Qa5 (coup du livret). Avant, la partie suivait la ligne « 2...Dxd5 » (Contre la Scandinave (1.e4 d5)). Ligne complète et position finale : theorie.md.
+- Partie 13 (5 min, noirs, contre 238) : victoire par mat. Ouverture : Caro Kann. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-13.md
+  - coup 9 (ouverture) : Qb4, perte 3.3 pion(s), thème automatique : erreur positionnelle, horloge 3:09
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 2 sur 4
+- Partie 14 (5 min, blancs, contre 239) : victoire par abandon de l'adversaire. Ouverture : Queens Pawn Opening Blackmar Blackmar. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-14.md
+  - coup 13 (milieu) : Nf5, perte 4.4 pion(s), thème automatique : erreur positionnelle, horloge 2:59
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 1 sur 2
-- Partie 11 (2 min + 1 s, noirs, contre 109) : défaite au temps. Ouverture : Caro Kann Defense Breyer Variation. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-11.md
-  - coup 21 (milieu) : Bxf4, perte 2.1 pion(s), thème automatique : gain de matériel manqué, horloge 0:09
+- Partie 15 (5 min, blancs, contre 259) : victoire par mat. Ouverture : Scotch. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-15.md
+  - coup 9 (ouverture) : f3, perte 2.9 pion(s), thème automatique : gain de matériel manqué, horloge 4:15
+  - coup 16 (milieu) : f4, perte 2.3 pion(s), thème automatique : erreur positionnelle, horloge 2:44
+  - théorie : Au coup 3 des noirs, l'adversaire a joué Nxd4 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 1 sur 2
+- Partie 17 (5 min, blancs, contre 291) : défaite au temps. Ouverture : French Defense Normal Variation. 5 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-17.md
+  - coup 11 (milieu) : Qd2, perte 2.5 pion(s), thème automatique : pièce laissée en prise, horloge 3:59
+  - coup 15 (milieu) : Bg5, perte 3.0 pion(s), thème automatique : menace adverse ignorée, horloge 2:29
+  - coup 20 (milieu) : Qd3, perte 3.0 pion(s), thème automatique : erreur positionnelle, horloge 0:53
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 3 sur 3
-  - avantage non converti : jusqu'à +9.6 pions, mais la partie n'a pas été gagnée
-- Partie 13 (2 min + 1 s, blancs, contre 127) : victoire par mat. Ouverture : Scotch Game. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-13.md
-  - théorie : Au coup 3 des blancs, tu as joué d4 au lieu de Bc4 (coup du livret). Avant, la partie suivait la ligne « Piège : Legal » (Partie italienne et Deux cavaliers). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 0 sur 1
+- Partie 18 (5 min, blancs, contre 281) : défaite partie quittée. Ouverture : Scotch Game Schmidt. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-18.md
+  - coup 5 (ouverture) : Bd3, perte 4.1 pion(s), thème automatique : pièce laissée en prise, horloge 4:48
+  - coup 13 (milieu) : Qxd5, perte 6.2 pion(s), thème automatique : erreur positionnelle, horloge 3:54
+  - théorie : Au coup 5 des blancs, tu as joué Bd3 au lieu de Nxc6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 2 sur 3
+- Partie 21 (5 min, noirs, contre 280) : victoire par mat. Ouverture : Caro Kann Defense Fantasy Variation. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-21.md
+  - coup 5 (ouverture) : Bf5, perte 2.9 pion(s), thème automatique : fourchette subie, horloge 4:32
+  - coup 8 (ouverture) : e6, perte 4.3 pion(s), thème automatique : pièce laissée en prise, horloge 4:20
+  - coup 12 (milieu) : Qxf6, perte 2.9 pion(s), thème automatique : pièce laissée en prise, horloge 3:44
+  - théorie : Au coup 3 des blancs, l'adversaire a joué f3 au lieu de Nc3 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante classique (3.Cc3)). Ligne complète et position finale : theorie.md.
+  - cadeaux de l'adversaire saisis : 2 sur 4
+- Partie 22 (5 min, noirs, contre 284) : défaite par mat. Ouverture : Slav Defense Modern Quiet Pin. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-22.md
+  - coup 11 (milieu) : O-O, perte 5.1 pion(s), thème automatique : pièce laissée en prise, horloge 3:59
+  - coup 21 (milieu) : d4, perte 4.6 pion(s), thème automatique : pièce laissée en prise, horloge 2:34
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 2 sur 3
+- Partie 3 (2 min + 1 s, blancs, contre 211) : défaite partie quittée. Ouverture : Kings Pawn Opening Kings Knight. 0 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-3.md
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
   - cadeaux de l'adversaire saisis : 2 sur 2
-- Partie 20 (2 min + 1 s, noirs, contre 211) : défaite par abandon. Ouverture : Polish Opening Outflank Variation. 2 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-20.md
-  - coup 13 (milieu) : Qd7, perte 3.5 pion(s), thème automatique : erreur positionnelle, horloge 0:34
-  - coup 20 (milieu) : Qd3, perte 9.6 pion(s), thème automatique : pièce laissée en prise, horloge 0:04
+  - avantage non converti : jusqu'à +7.1 pions, mais la partie n'a pas été gagnée
+- Partie 10 (2 min + 1 s, blancs, contre 113) : défaite au temps. Ouverture : Kings Pawn Opening Kings Knight. 4 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-10.md
+  - coup 5 (ouverture) : Ng4, perte 2.9 pion(s), thème automatique : erreur positionnelle, horloge 1:18
+  - coup 8 (ouverture) : Be3, perte 2.3 pion(s), thème automatique : erreur positionnelle, horloge 0:12
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
-  - cadeaux de l'adversaire saisis : 1 sur 4
-  - avantage non converti : jusqu'à +8.0 pions, mais la partie n'a pas été gagnée
+  - cadeaux de l'adversaire saisis : 1 sur 3
+  - avantage non converti : jusqu'à +6.8 pions, mais la partie n'a pas été gagnée
+- Partie 16 (2 min + 1 s, noirs, contre 131) : victoire au temps (l'adversaire a dépassé son temps). Ouverture : Caro Kann Defense Advance Van. 1 erreur(s) décisive(s). Détail : https://raw.githubusercontent.com/Jeunart/chess-coach/main/rapport/partie-16.md
+  - coup 17 (milieu) : Ke8, perte 2.1 pion(s), thème automatique : erreur positionnelle, horloge 0:26
+  - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+  - cadeaux de l'adversaire saisis : 1 sur 3
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 206 parties, 52 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 349 -> 537
-- Types d'erreurs : erreur positionnelle 38 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 9 %
-- Phase des erreurs : milieu 325, ouverture 169, finale 124
-- Erreurs décisives avec moins d'une minute à l'horloge : 27 sur 618
-- Parties non gagnées avec au moins 3 pions d'avantage : 65 sur 206
+- 213 parties, 52 % de victoires, 3.1 erreur(s) décisive(s) par partie, classement 349 -> 530
+- Types d'erreurs : erreur positionnelle 38 %, pièce laissée en prise 27 %, menace adverse ignorée 10 %, gain de matériel manqué 9 %
+- Phase des erreurs : milieu 348, ouverture 172, finale 135
+- Erreurs décisives avec moins d'une minute à l'horloge : 27 sur 655
+- Parties non gagnées avec au moins 3 pions d'avantage : 70 sur 213
 - Ouvertures les plus jouées avec les blancs : Scotch Game (12V/2N/13D) ; Kings Pawn Opening Kings Knight (10V/2N/6D)
-- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (15V/1N/16D) ; Caro Kann Defense Advance Variation (2V/0N/3D)
+- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (16V/1N/18D) ; Caro Kann Defense Advance Variation (2V/0N/3D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
 1. Erreur positionnelle - Dans le calme, choisis un plan simple (développer, roquer, activer la dernière pièce) et vérifie que ton coup ne gêne pas tes pièces.
-2. Pièce laissée en prise - Avant chaque coup, deux questions : « La pièce que je déplace est-elle défendue ? Qu'est-ce que mon coup laisse sans défense ? »
+2. Menace adverse ignorée - Avant de jouer, regarde le dernier coup adverse : qu'attaque-t-il, ou que prépare-t-il ?
 3. Conserver un avantage - Quand tu es mieux, cherche d'abord les échecs, les prises et les pièces non défendues avant de jouer un coup tranquille.
-- Note : Horloge au moment des erreurs décisives : entre 1:44 et 9:57 : le temps n'était pas le problème.
+- Note : Horloge au moment des erreurs décisives : entre 1:08 et 9:27 : le temps n'était pas le problème.
 
 ## Limites à dire honnêtement
-- Échantillon du jour en rapides 10/15 min : 12 partie(s)
+- Échantillon du jour en rapides 10/15 min : 14 partie(s)
 - Les thèmes sont des étiquettes automatiques, approximatives. Les parties contre des bots et entraîneurs de chess.com ne sont pas comptées.
 

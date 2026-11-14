@@ -1,14 +1,14 @@
-# Partie 9 du 2026-11-12
+# Partie 9 du 2026-11-13
 
-## Partie 9 : rapide - victoire par abandon de l'adversaire
-- Lien : https://www.chess.com/game/live/187045685176
+## Partie 9 : blitz - victoire par abandon de l'adversaire
+- Lien : https://www.chess.com/game/live/187114884964
 
-- Rapide (10 min), tu jouais les blancs contre Pingers22 (501) : victoire par abandon de l'adversaire.
-- Ouverture : Scotch Game.
-- Au coup 10, la position était à peu près égale.
+- Blitz (5 min), tu jouais les noirs contre Zindabad1987 (227) : victoire par abandon de l'adversaire.
+- Ouverture : Caro Kann Defense Breyer Variation.
+- Au coup 10, la position était légèrement meilleure pour l'adversaire.
 - Aucune erreur décisive : partie propre.
-- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
-- Théorie d'ouverture : Au coup 4 des noirs, l'adversaire a joué d5 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 Aucun moment clé à corriger dans cette partie.
 

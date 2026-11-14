@@ -1,14 +1,14 @@
-# Partie 3 du 2026-11-12
+# Partie 3 du 2026-11-13
 
-## Partie 3 : blitz - victoire l'adversaire a quitté la partie
-- Lien : https://www.chess.com/game/live/187039863574
+## Partie 3 : bullet - défaite partie quittée
+- Lien : https://www.chess.com/game/live/187108939944
 
-- Blitz (5 min), tu jouais les blancs contre NickPlatz96 (233) : victoire l'adversaire a quitté la partie.
-- Ouverture : Scotch Game.
-- Au coup 10, la position était à peu près égale.
+- Bullet (2 min + 1 s), tu jouais les blancs contre typelKl (211) : défaite partie quittée.
+- Ouverture : Kings Pawn Opening Kings Knight.
+- Au coup 10, la position était gagnante pour toi.
 - Aucune erreur décisive : partie propre.
-- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
-- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué Bb4+ au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 Aucun moment clé à corriger dans cette partie.
 

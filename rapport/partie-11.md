@@ -1,36 +1,57 @@
-# Partie 11 du 2026-11-12
+# Partie 11 du 2026-11-13
 
-## Partie 11 : bullet - défaite au temps
-- Lien : https://www.chess.com/game/live/187050968624
+## Partie 11 : blitz - victoire par mat
+- Lien : https://www.chess.com/game/live/187127150758
 
-- Bullet (2 min + 1 s), tu jouais les noirs contre Talhasaad-1978 (109) : défaite au temps.
-- Ouverture : Caro Kann Defense Breyer Variation.
-- Au coup 10, la position était gagnante pour toi.
+- Blitz (5 min), tu jouais les noirs contre Pipatoki (238) : victoire par mat.
+- Ouverture : Caro Kann Defense Two Knights.
+- Au coup 10, la position était à peu près égale.
 - Au coup 20, la position était gagnante pour toi.
-- 1 erreur décisive de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 3.
-- Ton horloge est descendue à 0:08 ; 1 erreur(s) décisive(s) sous la minute.
+- 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
 - Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 11.1 (corrigé)
-- Partie : https://www.chess.com/game/live/187050968624 - coup 21, tu jouais les noirs
-- Ton coup : le fou noir va de d6 en f4 et prend le pion blanc (Bxf4)
-- Meilleur coup : le fou noir va de d6 en a3 (échec) (Ba3+)
-- Perte mesurée : 2.1 pion(s) ; évaluation +9.6 avant, +7.5 après (profondeur 18)
-- Pourquoi : Tu pouvais gagner le fou blanc en e2 : il n'était pas défendu.
-- Thème (étiquette automatique, approximative) : gain de matériel manqué
+- Partie : https://www.chess.com/game/live/187127150758 - coup 14, tu jouais les noirs
+- Ton coup : le fou noir va de c8 en b7 (Bb7)
+- Meilleur coup : le pion noir va de c5 en c4 (c4)
+- Perte mesurée : 2.5 pion(s) ; évaluation +0.2 avant, -2.4 après (profondeur 18)
+- Pourquoi : Le coup adverse Nd7 attaque en même temps la dame noire en f6 et la tour noire en f8 : c'est une fourchette.
+- Thème (étiquette automatique, approximative) : fourchette subie
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. la dame blanche va de h4 en f2 et prend le cavalier noir (Qxf2) - prise du cavalier noir ; le fou noir en f4 est attaqué et n'est pas défendu
-  2. le fou noir va de f4 en d2 et prend le fou blanc (échec) (Bxd2+) - prise du fou blanc
-  3. le roi blanc va de c1 en d2 et prend le fou noir (Kxd2) - prise du fou noir
-  4. la dame noire va de b5 en e5 (Qe5)
+  1. le cavalier blanc va de e5 en d7 (Nd7) - la tour noire en f8 est attaquée par une pièce de moindre valeur ; la dame noire en f6 est attaquée par une pièce de moindre valeur
+  2. la dame noire va de f6 en e7 (Qe7) - le cavalier blanc en d7 est attaqué et n'est pas défendu
+  3. le cavalier blanc va de d7 en f8 et prend la tour noire (Nxf8) - prise de la tour noire
+  4. la tour noire va de a8 en f8 et prend le cavalier blanc (Rxf8) - prise du cavalier blanc
 - Ligne conseillée par le moteur, coup par coup :
-  1. le fou noir va de d6 en a3 (échec) (Ba3+) - le fou blanc en e2 est attaqué et n'est pas défendu
-  2. le roi blanc va de c1 en b1 (Kb1) - le cavalier noir en f2 est attaqué et n'est pas défendu
-  3. la tour noire va de e8 en e2 et prend le fou blanc (Rxe2) - prise du fou blanc ; le fou blanc en d2 est attaqué et n'est pas défendu
-  4. le pion blanc va de h2 en h3 (h3)
-  5. le pion noir va de f7 en f6 (f6) - le fou blanc en d2 est attaqué et n'est pas défendu
-- Autre option solide : la tour noire va de e8 en e2 et prend le fou blanc (Rxe2) (évaluation +10.0)
-- Autre option solide : le fou noir va de d6 en f4 et prend le pion blanc (Bxf4) (évaluation +9.0)
-- Temps restant sur ton horloge : 0:09 (moins d'une minute)
+  1. le pion noir va de c5 en c4 (c4)
+  2. la tour blanche va de a1 en b1 (Rb1)
+  3. la dame noire va de f6 en e7 (Qe7)
+  4. le pion blanc va de g2 en g4 (g4)
+  5. la dame noire va de e7 en a3 et prend le pion blanc (Qxa3) - prise du pion blanc
+- Autre option solide : la dame noire va de f6 en e7 (Qe7) (évaluation -0.3)
+- Autre option solide : le pion noir va de c5 en d4 et prend le pion blanc (cxd4) (évaluation -0.5)
+- Temps restant sur ton horloge : 3:25
+
+### Moment clé 11.2 (corrigé)
+- Partie : https://www.chess.com/game/live/187127150758 - coup 19, tu jouais les noirs
+- Ton coup : la tour noire va de c3 en c2 (Rc2)
+- Meilleur coup : le fou noir va de b7 en a6 (Ba6)
+- Perte mesurée : 2.3 pion(s) ; évaluation -0.0 avant, -2.3 après (profondeur 18)
+- Pourquoi : le fou noir en b7 était menacé avant ton coup et l'est resté.
+- Thème (étiquette automatique, approximative) : menace adverse ignorée
+- Ce qui se passe après ton coup (ligne du moteur) :
+  1. le cavalier blanc va de e5 en g4 (Ng4) - le fou noir en b7 est attaqué et n'est pas défendu ; la dame noire en f6 est attaquée par une pièce de moindre valeur
+  2. la dame noire va de f6 en f4 (Qf4)
+  3. la dame blanche va de d7 en b7 et prend le fou noir (Qxb7) - prise du fou noir ; la tour noire en a8 est attaquée et n'est pas défendue
+  4. la tour noire va de a8 en b8 (Rb8) - la dame blanche en b7 est attaquée et n'est pas défendue
+- Ligne conseillée par le moteur, coup par coup :
+  1. le fou noir va de b7 en a6 (Ba6)
+  2. la tour blanche va de e1 en e3 (Re3) - la tour noire en c3 est attaquée et n'est pas défendue
+  3. la tour noire va de c3 en e3 et prend la tour blanche (Rxe3) - prise de la tour blanche
+  4. le pion blanc va de f2 en e3 et prend la tour noire (fxe3) - prise de la tour noire
+  5. le fou noir va de a6 en e2 (Be2)
+- Autre option solide : le fou noir va de b7 en c8 (Bc8) (évaluation -1.5)
+- Autre option solide : la tour noire va de c3 en c2 (Rc2) (évaluation -1.9)
+- Temps restant sur ton horloge : 2:05
 
