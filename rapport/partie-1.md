@@ -1,36 +1,55 @@
-# Partie 1 du 2026-11-13
+# Partie 1 du 2026-11-14
 
-## Partie 1 : rapide - victoire par mat
-- Lien : https://www.chess.com/game/live/187106912256
+## Partie 1 : rapide - victoire par abandon de l'adversaire
+- Lien : https://www.chess.com/game/live/187178070574
 
-- Rapide (10 min), tu jouais les blancs contre hugo0hrmn (521) : victoire par mat.
-- Ouverture : Kings Pawn Opening Kings Knight.
+- Rapide (10 min), tu jouais les blancs contre yanipie (528) : victoire par abandon de l'adversaire.
+- Ouverture : Philidor Defense Exchange Variation.
 - Au coup 10, la position était gagnante pour toi.
 - Au coup 20, la position était gagnante pour toi.
-- Au coup 30, la position était gagnante pour toi.
-- 1 erreur décisive de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
-- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+- 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+- L'adversaire t'a offert 5 occasions d'avantage ; tu en as saisi 4.
+- Théorie d'ouverture : Au coup 3 des blancs, tu as joué d4 au lieu de Bc4 (coup du livret). Avant, la partie suivait la ligne « Piège : Legal » (Partie italienne et Deux cavaliers). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 1.1 (corrigé)
-- Partie : https://www.chess.com/game/live/187106912256 - coup 6, tu jouais les blancs
-- Ton coup : le fou blanc va de f1 en b5 (Bb5)
-- Meilleur coup : le cavalier blanc va de c3 en d5 et prend la dame noire (Nxd5)
-- Perte mesurée : 4.6 pion(s) ; évaluation +6.0 avant, +1.4 après (profondeur 18)
-- Pourquoi : Tu pouvais gagner la dame noire en d5 : elle n'était pas défendue.
-- Thème (étiquette automatique, approximative) : gain de matériel manqué
+- Partie : https://www.chess.com/game/live/187178070574 - coup 9, tu jouais les blancs
+- Ton coup : le cavalier blanc va de c3 en d5 (Nd5)
+- Meilleur coup : le fou blanc va de f1 en c4 (Bc4)
+- Perte mesurée : 3.5 pion(s) ; évaluation +5.8 avant, +2.3 après (profondeur 18)
+- Pourquoi : Le coup adverse Qxe4+ attaque en même temps le roi blanc en e1 et le cavalier blanc en d5 : c'est une fourchette.
+- Thème (étiquette automatique, approximative) : fourchette subie
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. la dame noire va de d5 en d6 (Qd6)
-  2. le pion blanc va de d2 en d4 (d4)
-  3. le pion noir va de e5 en d4 et prend le pion blanc (exd4) - prise du pion blanc ; le cavalier blanc en c3 est attaqué par une pièce de moindre valeur
-  4. le cavalier blanc va de f3 en d4 et prend le pion noir (Nxd4) - prise du pion noir
+  1. la dame noire va de b4 en e4 et prend le pion blanc (échec) (Qxe4+) - prise du pion blanc ; le cavalier blanc en d5 est attaqué et n'est pas défendu ; la tour blanche en a1 est attaquée par une pièce de moindre valeur
+  2. le fou blanc va de f1 en e2 (Be2)
+  3. la dame noire va de e4 en g2 et prend le pion blanc (Qxg2) - prise du pion blanc ; le cavalier blanc en d5 est attaqué et n'est pas défendu ; la tour blanche en h1 est attaquée et n'est pas défendue ; la tour blanche en a1 est attaquée par une pièce de moindre valeur
+  4. le fou blanc va de e2 en f3 (Bf3) - la dame noire en g2 est attaquée et n'est pas défendue
 - Ligne conseillée par le moteur, coup par coup :
-  1. le cavalier blanc va de c3 en d5 et prend la dame noire (Nxd5) - prise de la dame noire
-  2. le fou noir va de f8 en d6 (Bd6)
-  3. le fou blanc va de f1 en c4 (Bc4)
-  4. le fou noir va de c8 en g4 (Bg4)
-  5. le cavalier blanc va de d5 en e3 (Ne3) - le fou noir en g4 est attaqué et n'est pas défendu
-- Autre option solide : le fou blanc va de f1 en b5 (Bb5) (évaluation +1.3)
-- Autre option solide : le pion blanc va de a2 en a4 (a4) (évaluation +0.5)
-- Temps restant sur ton horloge : 8:59
+  1. le fou blanc va de f1 en c4 (Bc4)
+  2. le pion noir va de a7 en a6 (a6) - le cavalier blanc en b5 est attaqué par une pièce de moindre valeur
+  3. le cavalier blanc va de b5 en d6 et prend le pion noir (échec) (Nxd6+) - prise du pion noir ; le fou noir en c8 est attaqué et n'est pas défendu
+  4. le roi noir va de e8 en f8 (Kf8)
+  5. la dame blanche va de d1 en f3 (Qf3) - le fou noir en c8 est attaqué et n'est pas défendu
+- Autre option solide : le cavalier blanc va de b5 en d6 et prend le pion noir (échec) (Nxd6+) (évaluation +6.0)
+- Autre option solide : la dame blanche va de d1 en f3 (Qf3) (évaluation +5.0)
+- Temps restant sur ton horloge : 9:09
+
+### Moment clé 1.2 (corrigé)
+- Partie : https://www.chess.com/game/live/187178070574 - coup 17, tu jouais les blancs
+- Ton coup : le fou blanc va de d2 en a5 (échec) (Ba5+)
+- Meilleur coup : le fou blanc va de d2 en g5 (échec) (Bg5+)
+- Perte mesurée : 4.6 pion(s) ; évaluation mat en 2 pour toi avant, +5.4 après (profondeur 18)
+- Pourquoi : Tu avais un mat en 2 coups et ton coup l'a laissé passer.
+- Thème (étiquette automatique, approximative) : mat manqué
+- Ce qui se passe après ton coup (ligne du moteur) :
+  1. le pion noir va de b7 en b6 (b6) - le fou blanc en a5 est attaqué et n'est pas défendu
+  2. le fou blanc va de a5 en c3 (Bc3)
+  3. le fou noir va de c8 en d7 (Bd7)
+  4. le roi blanc va de e1 en d1 (Kd1)
+- Ligne conseillée par le moteur, coup par coup :
+  1. le fou blanc va de d2 en g5 (échec) (Bg5+)
+  2. la tour noire va de e8 en e7 (Re7) - la dame blanche en f7 est attaquée et n'est pas défendue
+  3. la dame blanche va de f7 en e7 et prend la tour noire (échec et mat) (Qxe7#) - prise de la tour noire
+- Autre option solide : le roi fait le petit roque (O-O) (évaluation +6.6)
+- Autre option solide : le pion blanc va de b3 en b4 (b4) (évaluation +6.1)
+- Temps restant sur ton horloge : 7:40
 
