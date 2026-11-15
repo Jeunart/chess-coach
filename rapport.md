@@ -1,10 +1,10 @@
 # Rapport du 2026-11-15 : vue d'ensemble
 
-Généré le 2026-11-15 10:56 (heure de Zurich). Parties du 2026-11-14.
+Généré le 2026-11-15 13:19 (heure de Zurich). Parties du 2026-11-14.
 Chaque partie a son fichier détaillé (récit, moments clés, solutions). Lis seulement celui de la partie demandée.
 
 ## Contrôle des données
-- Parties importées au total : 1098 (blitz 371, bullet 45, daily 33, rapid 649)
+- Parties importées au total : 1099 (blitz 371, bullet 45, daily 33, rapid 650)
 - Parties de la veille importées et analysées : 7
 - Les données publiques de chess.com peuvent avoir jusqu'à 12 h de retard : une partie tardive apparaîtra dans le rapport suivant.
 
