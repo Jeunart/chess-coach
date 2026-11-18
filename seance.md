@@ -1,331 +1,301 @@
-# Séance du 2026-11-17
+# Séance du 2026-11-18
 
-Généré le 2026-11-17 14:54 (heure de Zurich). Parties étudiées : celles du 2026-11-16.
+Généré le 2026-11-18 05:22 (heure de Zurich). Parties étudiées : celles du 2026-11-17.
 
 ## Contrôle des données
-- Parties importées au total : 1149 (blitz 378, bullet 48, daily 35, rapid 688)
-- Parties de la veille importées et analysées : 24
+- Parties importées au total : 1149 (blitz 378, bullet 48, daily 25, rapid 698)
+- Parties de la veille importées et analysées : 19
 - Les données publiques de chess.com peuvent avoir jusqu'à 12 h de retard : une partie tardive apparaîtra dans le rapport suivant.
 
 ## Bilan
-- Parties du 2026-11-16 : 24 (rapid 22, blitz 1, daily 1)
-- Résultats : 11 victoire(s), 4 nulle(s), 9 défaite(s)
-- Classement rapide : 613 -> 629
-- Classement blitz : 273 -> 273
-- Classement par correspondance : 588 -> 588
-- Erreurs décisives par partie : 3.0 ce jour-là, 2.9 sur 30 jours
+- Parties du 2026-11-17 : 19 (rapid 19)
+- Résultats : 9 victoire(s), 0 nulle(s), 10 défaite(s)
+- Classement rapide : 636 -> 619
+- Erreurs décisives par partie : 2.9 ce jour-là, 2.9 sur 30 jours
 
 ## Parties de la veille (récit, sans les solutions)
-1. https://www.chess.com/game/live/187317850934
-   - Rapide (10 min), tu jouais les blancs contre chetan150796 (581) : victoire par mat.
-   - Ouverture : Old Benoni Defense Franco Benoni.
-   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+1. https://www.chess.com/game/live/187387143090
+   - Rapide (10 min), tu jouais les blancs contre bardiadanei (597) : victoire par abandon de l'adversaire.
+   - Ouverture : Scotch Game.
+   - Au coup 10, la position était nettement meilleure pour toi.
+   - Au coup 20, la position était à peu près égale.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 4.
+2. https://www.chess.com/game/live/187387366636
+   - Rapide (10 min), tu jouais les blancs contre olive_lapointe (617) : victoire par mat.
+   - Ouverture : Scandinavian Defense Mieses Kotrc Variation.
+   - Au coup 10, la position était légèrement meilleure pour toi.
    - Au coup 20, la position était gagnante pour toi.
+   - Au coup 30, la position était gagnante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
+3. https://www.chess.com/game/live/187388052162
+   - Rapide (10 min), tu jouais les blancs contre mxtnda (653) : défaite par abandon.
+   - Ouverture : Sicilian Defense Smith Morra Gambit.
+   - Au coup 10, la position était à peu près égale.
+   - Au coup 20, la position était perdante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
+4. https://www.chess.com/game/live/187391735980
+   - Rapide (10 min), tu jouais les noirs contre Yuri-Berchiche (634) : défaite par abandon.
+   - Ouverture : Caro Kann Defense Advance Van.
+   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+5. https://www.chess.com/game/live/187398071872
+   - Rapide (10 min), tu jouais les blancs contre dahliakho (616) : défaite au temps.
+   - Ouverture : Scandinavian Defense Mieses Kotrc Variation.
+   - Au coup 10, la position était légèrement meilleure pour toi.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était perdante pour toi.
    - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 5 occasions d'avantage ; tu en as saisi 3.
-2. https://www.chess.com/game/live/187318528936
-   - Rapide (10 min), tu jouais les blancs contre Taj_129 (628) : victoire par mat.
-   - Ouverture : Philidor Defense.
-   - Au coup 10, la position était gagnante pour toi.
-   - Au coup 20, la position était gagnante pour toi.
-   - Au coup 30, la position était gagnante pour toi.
-   - Aucune erreur décisive : partie propre.
-   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 3.
-3. https://www.chess.com/game/live/187319496260
-   - Rapide (10 min), tu jouais les noirs contre bluebucketofpaint (609) : victoire par abandon de l'adversaire.
-   - Ouverture : Slav Defense Modern Quiet Pin.
-   - Aucune erreur décisive : partie propre.
-4. https://www.chess.com/game/live/187319555092
-   - Rapide (10 min), tu jouais les noirs contre Q1ar7 (633) : défaite par mat.
-   - Ouverture : Caro Kann Defense.
-   - Au coup 10, la position était perdante pour toi.
-   - Au coup 20, la position était nettement meilleure pour l'adversaire.
-   - Au coup 30, la position était perdante pour toi.
-   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 2.
-5. https://www.chess.com/game/live/187322389382
-   - Rapide (10 min), tu jouais les blancs contre haillllaa (598) : victoire par abandon de l'adversaire.
-   - Ouverture : Scotch Game.
+   - Ton horloge est descendue à 0:00.
+6. https://www.chess.com/game/live/187400101550
+   - Rapide (10 min), tu jouais les noirs contre driftmax09 (615) : défaite par mat.
+   - Ouverture : Caro Kann Defense Advance Van.
    - Au coup 10, la position était nettement meilleure pour l'adversaire.
-   - Au coup 20, la position était nettement meilleure pour l'adversaire.
-   - Au coup 30, la position était gagnante pour toi.
    - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 6 occasions d'avantage ; tu en as saisi 5.
-6. https://www.chess.com/game/live/187323568568
-   - Rapide (10 min), tu jouais les noirs contre Sumit_kharoshe (636) : nulle par pat.
-   - Ouverture : Caro Kann Defense Classical Variation.
-   - Au coup 10, la position était nettement meilleure pour l'adversaire.
-   - Au coup 20, la position était nettement meilleure pour l'adversaire.
-   - Au coup 30, la position était gagnante pour toi.
-   - 10 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 9 occasions d'avantage ; tu en as saisi 6.
-7. https://www.chess.com/game/live/187324008248
-   - Rapide (10 min), tu jouais les blancs contre Ruslan_Raxmonqulov (623) : défaite par abandon.
-   - Ouverture : Petrovs Defense Steinitz Attack.
-   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
-   - Au coup 20, la position était perdante pour toi.
-   - Aucune erreur décisive : partie propre.
-8. https://www.chess.com/game/live/187325896448
-   - Rapide (10 min), tu jouais les blancs contre gusuyt (590) : victoire par abandon de l'adversaire.
-   - Ouverture : Nimzowitsch Defense.
-   - Au coup 10, la position était gagnante pour toi.
-   - Aucune erreur décisive : partie propre.
-   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
-9. https://www.chess.com/game/live/187326037604
-   - Rapide (10 min), tu jouais les noirs contre Anandmishra1210 (638) : victoire par mat.
-   - Ouverture : Caro Kann Defense Two Knights.
-   - Au coup 10, la position était perdante pour toi.
-   - Au coup 20, la position était perdante pour toi.
-   - Aucune erreur décisive : partie propre.
-   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 3.
-10. https://www.chess.com/game/live/187326930686
-   - Rapide (10 min), tu jouais les noirs contre Raastafarii (635) : défaite par mat.
-   - Ouverture : Caro Kann Defense.
-   - Au coup 10, la position était à peu près égale.
-   - Au coup 20, la position était nettement meilleure pour l'adversaire.
-   - Au coup 30, la position était perdante pour toi.
-   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 0.
-11. https://www.chess.com/game/live/187330847798
-   - Rapide (10 min), tu jouais les blancs contre KIZO957 (618) : défaite par mat.
-   - Ouverture : Scotch Game.
-   - Au coup 10, la position était légèrement meilleure pour toi.
-   - Au coup 20, la position était nettement meilleure pour l'adversaire.
-   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
-12. https://www.chess.com/game/live/187333385838
-   - Rapide (10 min), tu jouais les noirs contre david224499 (592) : victoire par abandon de l'adversaire.
-   - Ouverture : Caro Kann Defense Advance Short.
-   - Au coup 10, la position était nettement meilleure pour l'adversaire.
-   - Au coup 20, la position était gagnante pour toi.
-   - 1 erreur décisive de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
-13. https://www.chess.com/game/live/187333884680
-   - Rapide (10 min), tu jouais les blancs contre mcid1 (609) : nulle par répétition.
-   - Ouverture : Scotch Game.
-   - Au coup 10, la position était nettement meilleure pour toi.
-   - Au coup 20, la position était légèrement meilleure pour toi.
-   - Au coup 30, la position était gagnante pour toi.
-   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
-14. https://www.chess.com/game/live/187339040432
-   - Rapide (10 min), tu jouais les blancs contre Suryachachu (635) : défaite par mat.
-   - Ouverture : Scotch.
-   - Au coup 10, la position était nettement meilleure pour toi.
-   - Au coup 20, la position était perdante pour toi.
-   - Au coup 30, la position était perdante pour toi.
-   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 8 occasions d'avantage ; tu en as saisi 5.
-15. https://www.chess.com/game/live/187339981326
-   - Rapide (10 min), tu jouais les noirs contre Lakshmanan111 (633) : victoire l'adversaire a quitté la partie.
-   - Ouverture : Van t Kruijs Opening.
-   - Au coup 10, la position était légèrement meilleure pour toi.
-   - 1 erreur décisive de ta part (perte d'au moins 2 pions).
-16. https://www.chess.com/game/live/187340317020
-   - Rapide (10 min), tu jouais les blancs contre baddine (636) : défaite par abandon.
-   - Ouverture : Scotch Game.
-   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
-   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 0.
-17. https://www.chess.com/game/live/187342866600
-   - Blitz (5 min), tu jouais les blancs contre vulcan78 (263) : nulle par répétition.
-   - Ouverture : Scandinavian Defense Mieses Kotrc Variation.
-   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
-   - Au coup 20, la position était à peu près égale.
-   - Au coup 30, la position était perdante pour toi.
-   - 6 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 5 occasions d'avantage ; tu en as saisi 2.
-18. https://www.chess.com/game/live/187358994684
-   - Rapide (10 min), tu jouais les noirs contre riya112222 (644) : défaite par abandon.
-   - Ouverture : Van t Kruijs Opening.
-   - Au coup 10, la position était nettement meilleure pour toi.
-   - Au coup 20, la position était nettement meilleure pour toi.
-   - Au coup 30, la position était gagnante pour toi.
-   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
-19. https://www.chess.com/game/live/187359957272
-   - Rapide (10 min), tu jouais les noirs contre oman1179 (626) : nulle par pat.
-   - Ouverture : Caro Kann Defense.
-   - Au coup 10, la position était à peu près égale.
-   - Au coup 20, la position était légèrement meilleure pour toi.
-   - Au coup 30, la position était perdante pour toi.
-   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 2.
-   - Ton horloge est descendue à 0:05.
-20. https://www.chess.com/game/daily/1064773592
-   - Par correspondance (3 jour(s) par coup), tu jouais les noirs contre Phil_ie (757) : défaite par abandon.
-   - Ouverture : Scandinavian Defense Mieses Kotrc Main.
-   - Au coup 10, la position était nettement meilleure pour l'adversaire.
-   - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 0.
-21. https://www.chess.com/game/live/187361501912
-   - Rapide (10 min), tu jouais les blancs contre RolandDeschaine (625) : victoire par abandon de l'adversaire.
-   - Ouverture : Philidor Defense.
-   - Au coup 10, la position était gagnante pour toi.
-   - Au coup 20, la position était gagnante pour toi.
-   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
-   - L'adversaire t'a offert 7 occasions d'avantage ; tu en as saisi 5.
-22. https://www.chess.com/game/live/187362121438
-   - Rapide (10 min), tu jouais les noirs contre LennartTUS (604) : victoire l'adversaire a quitté la partie.
-   - Ouverture : Caro Kann Defense Exchange Variation.
-   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
+7. https://www.chess.com/game/live/187400430994
+   - Rapide (10 min), tu jouais les blancs contre reeed22 (591) : victoire par abandon de l'adversaire.
+   - Ouverture : Scotch Game.
    - Aucune erreur décisive : partie propre.
    - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
-23. https://www.chess.com/game/live/187362332430
-   - Rapide (10 min), tu jouais les noirs contre ElianoHater45 (635) : victoire par abandon de l'adversaire.
-   - Ouverture : Caro Kann Defense.
-   - Au coup 10, la position était légèrement meilleure pour l'adversaire.
+8. https://www.chess.com/game/live/187400564232
+   - Rapide (10 min), tu jouais les blancs contre Rooky196 (607) : victoire au temps (l'adversaire a dépassé son temps).
+   - Ouverture : Scotch Game Classical Variation.
+   - Au coup 10, la position était à peu près égale.
    - Au coup 20, la position était nettement meilleure pour toi.
-   - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - Au coup 30, la position était perdante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+9. https://www.chess.com/game/live/187403431592
+   - Rapide (10 min), tu jouais les blancs contre denismeegan11 (617) : défaite par mat.
+   - Ouverture : Caro Kann Defense Main Line.
+   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+   - Au coup 20, la position était légèrement meilleure pour toi.
+   - Au coup 30, la position était à peu près égale.
+   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 3.
+10. https://www.chess.com/game/live/187405611410
+   - Rapide (10 min), tu jouais les noirs contre AldridgeTheChessDude (607) : défaite par abandon.
+   - Ouverture : Caro Kann Defense Exchange Variation.
+   - Au coup 10, la position était nettement meilleure pour l'adversaire.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+11. https://www.chess.com/game/live/187406692210
+   - Rapide (10 min), tu jouais les noirs contre kinolait (595) : victoire par mat.
+   - Ouverture : Caro Kann Defense Exchange Variation.
+   - Au coup 10, la position était à peu près égale.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était gagnante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 5 occasions d'avantage ; tu en as saisi 3.
-24. https://www.chess.com/game/live/187362919030
-   - Rapide (10 min), tu jouais les noirs contre parkerfr (646) : défaite par mat.
-   - Ouverture : Queens Pawn Opening Zukertort.
+12. https://www.chess.com/game/live/187407758222
+   - Rapide (10 min), tu jouais les noirs contre AntiParaco (624) : victoire par mat.
+   - Ouverture : Undefined.
+   - Au coup 10, la position était à peu près égale.
+   - Au coup 20, la position était nettement meilleure pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 8 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 14 occasions d'avantage ; tu en as saisi 6.
+   - Ton horloge est descendue à 0:01 ; 3 erreur(s) décisive(s) sous la minute.
+13. https://www.chess.com/game/live/187409541238
+   - Rapide (10 min), tu jouais les blancs contre o_JB_o (629) : défaite par mat.
+   - Ouverture : French Defense Normal Variation.
+   - Au coup 10, la position était gagnante pour toi.
+   - Au coup 20, la position était gagnante pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 2.
+14. https://www.chess.com/game/live/187411505120
+   - Rapide (10 min), tu jouais les noirs contre Tombi23 (616) : victoire par abandon de l'adversaire.
+   - Ouverture : Caro Kann Defense Exchange Variation.
    - Au coup 10, la position était nettement meilleure pour l'adversaire.
    - Au coup 20, la position était gagnante pour toi.
-   - Au coup 30, la position était gagnante pour toi.
-   - 5 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
    - L'adversaire t'a offert 5 occasions d'avantage ; tu en as saisi 5.
+15. https://www.chess.com/game/live/187412424210
+   - Rapide (10 min), tu jouais les noirs contre chino1966 (608) : victoire par mat.
+   - Ouverture : Caro Kann Defense Exchange Variation.
+   - Au coup 10, la position était perdante pour toi.
+   - Au coup 20, la position était perdante pour toi.
+   - Au coup 30, la position était gagnante pour toi.
+   - 1 erreur décisive de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
+16. https://www.chess.com/game/live/187413243160
+   - Rapide (10 min), tu jouais les noirs contre SouravXsahoo (612) : victoire par abandon de l'adversaire.
+   - Ouverture : Queens Pawn Opening Chigorin.
+   - Au coup 10, la position était légèrement meilleure pour toi.
+   - Aucune erreur décisive : partie propre.
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
+17. https://www.chess.com/game/live/187413978940
+   - Rapide (10 min), tu jouais les blancs contre imad_75000 (631) : défaite par abandon.
+   - Ouverture : Scotch Game.
+   - Au coup 10, la position était nettement meilleure pour toi.
+   - Au coup 20, la position était légèrement meilleure pour toi.
+   - Au coup 30, la position était perdante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 2.
+18. https://www.chess.com/game/live/187423980974
+   - Rapide (10 min), tu jouais les blancs contre MIQIU150 (655) : défaite par mat.
+   - Ouverture : Scotch Game.
+   - Au coup 10, la position était nettement meilleure pour toi.
+   - Au coup 20, la position était nettement meilleure pour toi.
+   - Au coup 30, la position était gagnante pour toi.
+   - 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 0.
+19. https://www.chess.com/game/live/187431332754
+   - Rapide (10 min), tu jouais les noirs contre MIKEKACHOWSKI2 (648) : défaite par abandon.
+   - Ouverture : Caro Kann Defense Exchange Variation.
+   - Au coup 10, la position était à peu près égale.
+   - Au coup 20, la position était légèrement meilleure pour l'adversaire.
+   - 4 erreurs décisives de ta part (perte d'au moins 2 pions).
+   - L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 0.
 
 ## Positions de la séance
 Ouvre le lien Lichess (échiquier cliquable ; garde le moteur d'analyse éteint), pense à voix haute, puis joue ton coup. Les corrigés sont dans corriges.md.
 
-### Position 1 : coup 10 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187317850934
+### Position 1 : coup 23 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187387143090
 - Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/rnb1k1nr/pp1p2pp/8/2bP4/2Bqp3/3Q1N2/PPP2PPP/R1B1K2R_w_KQkq_-_0_10
-- FEN : rnb1k1nr/pp1p2pp/8/2bP4/2Bqp3/3Q1N2/PPP2PPP/R1B1K2R w KQkq - 0 10
+- Échiquier : https://lichess.org/analysis/r1b3k1/p1p2p2/1bp3pp/2N5/6P1/1B5P/P1P1RP2/6K1_w_-_-_3_23
+- FEN : r1b3k1/p1p2p2/1bp3pp/2N5/6P1/1B5P/P1P1RP2/6K1 w - - 3 23
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 2 : coup 21 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187317850934
+### Position 2 : coup 28 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187387143090
 - Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/r1bQ4/pp1p2pp/n4n1k/3P4/3Bp3/8/PPP1B2q/R2K2R1_w_-_-_0_21
-- FEN : r1bQ4/pp1p2pp/n4n1k/3P4/3Bp3/8/PPP1B2q/R2K2R1 w - - 0 21
+- Échiquier : https://lichess.org/analysis/8/p1p2pk1/bbp2Npp/8/6P1/1B5P/P1P2P2/4R1K1_w_-_-_3_28
+- FEN : 8/p1p2pk1/bbp2Npp/8/6P1/1B5P/P1P2P2/4R1K1 w - - 3 28
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 3 : coup 7 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187319555092
-- Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/r1bqkb1r/pp2pppp/1np5/3pP2n/3P1N2/2N2P2/PPP3PP/R1BQKB1R_b_KQkq_-_4_7?color=black
-- FEN : r1bqkb1r/pp2pppp/1np5/3pP2n/3P1N2/2N2P2/PPP3PP/R1BQKB1R b KQkq - 4 7
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 4 : coup 21 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187319555092
-- Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/2rq1rk1/pp4pp/1n2p3/4Pp2/1P1N4/2B2P2/P1Q3PP/R4R1K_b_-_-_0_21?color=black
-- FEN : 2rq1rk1/pp4pp/1n2p3/4Pp2/1P1N4/2B2P2/P1Q3PP/R4R1K b - - 0 21
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 5 : coup 6 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187322389382
+### Position 3 : coup 17 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187387366636
 - Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/r1bk1bnr/ppp2ppp/2n5/4P3/4p3/5N2/PPP2PPP/RNB1KB1R_w_KQ_-_0_6
-- FEN : r1bk1bnr/ppp2ppp/2n5/4P3/4p3/5N2/PPP2PPP/RNB1KB1R w KQ - 0 6
+- Échiquier : https://lichess.org/analysis/rn2k2r/p4ppp/2p1pn2/1p6/3P1b2/1BN2Q1P/PPP1KPPq/R3R3_w_kq_-_0_17
+- FEN : rn2k2r/p4ppp/2p1pn2/1p6/3P1b2/1BN2Q1P/PPP1KPPq/R3R3 w kq - 0 17
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 6 : coup 42 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187322389382
+### Position 4 : coup 10 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187388052162
 - Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/8/1RR5/2p1n3/3k4/1P1r4/P1K5/5P1P/8_w_-_-_1_42
-- FEN : 8/1RR5/2p1n3/3k4/1P1r4/P1K5/5P1P/8 w - - 1 42
+- Échiquier : https://lichess.org/analysis/r1bqk2r/pp1pn2p/2n2pp1/4p3/4P2B/2P2N2/P1P2PPP/R2QKB1R_w_KQkq_-_2_10
+- FEN : r1bqk2r/pp1pn2p/2n2pp1/4p3/4P2B/2P2N2/P1P2PPP/R2QKB1R w KQkq - 2 10
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 7 : coup 18 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187323568568
-- Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/2kr3r/pp4Rp/2p2n2/b3pb2/2B5/2P2PN1/PP4PP/2K4R_b_-_-_4_18?color=black
-- FEN : 2kr3r/pp4Rp/2p2n2/b3pb2/2B5/2P2PN1/PP4PP/2K4R b - - 4 18
+### Position 5 : coup 17 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187388052162
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/r1b2rn1/1p4kp/p1nQ1pp1/4p3/2B1P2B/2q2N1P/P1P2PP1/R2R2K1_w_-_-_0_17
+- FEN : r1b2rn1/1p4kp/p1nQ1pp1/4p3/2B1P2B/2q2N1P/P1P2PP1/R2R2K1 w - - 0 17
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 8 : coup 39 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187323568568
+### Position 6 : coup 10 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187391735980
 - Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/8/2k5/8/p3p3/5P2/8/r6p/7K_b_-_-_0_39?color=black
-- FEN : 8/2k5/8/p3p3/5P2/8/r6p/7K b - - 0 39
+- Échiquier : https://lichess.org/analysis/r2qk1nr/pp1n1ppp/4p3/1BbpP3/6b1/2N2N2/PPPQ1PPP/R1B2RK1_b_kq_-_3_10?color=black
+- FEN : r2qk1nr/pp1n1ppp/4p3/1BbpP3/6b1/2N2N2/PPPQ1PPP/R1B2RK1 b kq - 3 10
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 7 : coup 20 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187391735980
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/r2q2k1/1p1n2pp/p7/2b5/8/P4P2/1PP2P1P/R1B2RK1_b_-_-_0_20?color=black
+- FEN : r2q2k1/1p1n2pp/p7/2b5/8/P4P2/1PP2P1P/R1B2RK1 b - - 0 20
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 8 : coup 9 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187398071872
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/r2qkb1r/ppp1pppp/5n2/5b2/1nBP4/2N1BN2/PPP2PPP/R2Q1RK1_w_kq_-_9_9
+- FEN : r2qkb1r/ppp1pppp/5n2/5b2/1nBP4/2N1BN2/PPP2PPP/R2Q1RK1 w kq - 9 9
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
 ### Position 9 : coup 12 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187326930686
+- Partie : https://www.chess.com/game/live/187398071872
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/r2qkb1r/ppp1pppp/2n2nb1/6N1/2BP4/P1N1B3/1P1Q1PPP/R4RK1_w_kq_-_1_12
+- FEN : r2qkb1r/ppp1pppp/2n2nb1/6N1/2BP4/P1N1B3/1P1Q1PPP/R4RK1 w kq - 1 12
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 10 : coup 10 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187400101550
 - Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/r2qk1nr/6pp/p1p1ppb1/2bpP3/6P1/P1N1BN1P/1PP2P2/R2QK2R_b_KQkq_-_1_12?color=black
-- FEN : r2qk1nr/6pp/p1p1ppb1/2bpP3/6P1/P1N1BN1P/1PP2P2/R2QK2R b KQkq - 1 12
+- Échiquier : https://lichess.org/analysis/rn1qk1nr/pp3ppp/4p3/1N1pP3/1b6/2P2Q2/P4PPP/R1B1K1NR_b_KQkq_-_0_10?color=black
+- FEN : rn1qk1nr/pp3ppp/4p3/1N1pP3/1b6/2P2Q2/P4PPP/R1B1K1NR b KQkq - 0 10
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 10 : coup 15 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187326930686
+### Position 11 : coup 20 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187400564232
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/r1k5/p1pbr1pp/1bp3n1/1p2P3/8/1B3NB1/PPP3PP/2KRR3_w_-_-_1_20
+- FEN : r1k5/p1pbr1pp/1bp3n1/1p2P3/8/1B3NB1/PPP3PP/2KRR3 w - - 1 20
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 12 : coup 27 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187400564232
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/r7/pkpR2pp/2p1P3/b4n1b/1pP5/1B4B1/PP4PP/2K1R3_w_-_-_3_27
+- FEN : r7/pkpR2pp/2p1P3/b4n1b/1pP5/1B4B1/PP4PP/2K1R3 w - - 3 27
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 13 : coup 30 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187403431592
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/8/1R6/3k4/7p/8/4n1P1/PP4K1/2r5_w_-_-_3_30
+- FEN : 8/1R6/3k4/7p/8/4n1P1/PP4K1/2r5 w - - 3 30
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 14 : coup 33 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187403431592
+- Trait aux blancs : tu joues les blancs
+- Échiquier : https://lichess.org/analysis/8/8/6k1/7R/8/4n1PK/PP6/2r5_w_-_-_1_33
+- FEN : 8/8/6k1/7R/8/4n1PK/PP6/2r5 w - - 1 33
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 15 : coup 24 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187405611410
 - Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/r2qk1nr/6pp/p1p1N1b1/4p3/6P1/P1N4P/1PP2P2/R2QK2R_b_KQkq_-_0_15?color=black
-- FEN : r2qk1nr/6pp/p1p1N1b1/4p3/6P1/P1N4P/1PP2P2/R2QK2R b KQkq - 0 15
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 11 : coup 16 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187330847798
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/2rqkb1r/5p2/p2p1n1p/np1BN1p1/4P3/6B1/PPP2PPP/R2Q1RK1_w_k_-_0_16
-- FEN : 2rqkb1r/5p2/p2p1n1p/np1BN1p1/4P3/6B1/PPP2PPP/R2Q1RK1 w k - 0 16
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 12 : coup 20 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187330847798
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/2rqk2r/3n1pb1/p2p3p/1p1Bn1pQ/8/6B1/PPP2PPP/R3R1K1_w_k_-_4_20
-- FEN : 2rqk2r/3n1pb1/p2p3p/1p1Bn1pQ/8/6B1/PPP2PPP/R3R1K1 w k - 4 20
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 13 : coup 19 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187333385838
-- Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/2r1k2r/p4pRp/1bpRp3/4P3/8/5P2/PP3P1P/2B1K3_b_k_-_0_19?color=black
-- FEN : 2r1k2r/p4pRp/1bpRp3/4P3/8/5P2/PP3P1P/2B1K3 b k - 0 19
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 14 : coup 8 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187333884680
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/r1bqkb1r/pp1p1ppp/8/2p1P3/4n3/2Q5/PPP2PPP/RNB1KB1R_w_KQkq_-_2_8
-- FEN : r1bqkb1r/pp1p1ppp/8/2p1P3/4n3/2Q5/PPP2PPP/RNB1KB1R w KQkq - 2 8
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 15 : coup 37 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187333884680
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/8/7p/5R2/p5k1/8/1QP5/P3q1PP/7K_w_-_-_3_37
-- FEN : 8/7p/5R2/p5k1/8/1QP5/P3q1PP/7K w - - 3 37
+- Échiquier : https://lichess.org/analysis/8/pp1r2pp/8/3nP3/1b6/6k1/PP6/R2R2K1_b_-_-_0_24?color=black
+- FEN : 8/pp1r2pp/8/3nP3/1b6/6k1/PP6/R2R2K1 b - - 0 24
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
 ### Position 16 : coup 14 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187339040432
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/r4rk1/ppp2ppp/8/6b1/2B3Q1/8/PPPq1PPP/RN2K2R_w_KQ_-_1_14
-- FEN : r4rk1/ppp2ppp/8/6b1/2B3Q1/8/PPPq1PPP/RN2K2R w KQ - 1 14
-- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
-
-### Position 17 (révision d'une erreur d'il y a 3 jours) : coup 36 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/187154110488
+- Partie : https://www.chess.com/game/live/187406692210
 - Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/1R6/p3kppp/2p1p3/3p4/4q3/5RK1/2r4P/1Q6_b_-_-_6_36?color=black
-- FEN : 1R6/p3kppp/2p1p3/3p4/4q3/5RK1/2r4P/1Q6 b - - 6 36
+- Échiquier : https://lichess.org/analysis/r3k2r/pp1q1ppp/2n1pn2/1N1P3b/1bB5/5N1P/PP3PP1/R1BQ1RK1_b_kq_-_0_14?color=black
+- FEN : r3k2r/pp1q1ppp/2n1pn2/1N1P3b/1bB5/5N1P/PP3PP1/R1BQ1RK1 b kq - 0 14
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 18 (révision d'une erreur d'il y a 7 jours) : coup 22 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/186842567942
+### Position 17 (révision d'une erreur d'il y a 3 jours) : coup 14 d'une partie en rapide
+- Partie : https://www.chess.com/game/live/187201040404
 - Trait aux noirs : tu joues les noirs
-- Échiquier : https://lichess.org/analysis/3r1rk1/p4pp1/2n3p1/qppN1P2/1nP3P1/2N1P3/PP2Q2P/R4RK1_b_-_-_1_22?color=black
-- FEN : 3r1rk1/p4pp1/2n3p1/qppN1P2/1nP3P1/2N1P3/PP2Q2P/R4RK1 b - - 1 22
+- Échiquier : https://lichess.org/analysis/rn2kr2/pp3p2/4p2Q/q1bpP2b/4n2P/2P5/PP6/RNB1KBNR_b_KQq_-_2_14?color=black
+- FEN : rn2kr2/pp3p2/4p2Q/q1bpP2b/4n2P/2P5/PP6/RNB1KBNR b KQq - 2 14
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
-### Position 19 (révision d'une erreur d'il y a 14 jours) : coup 12 d'une partie en rapide
-- Partie : https://www.chess.com/game/live/186397478940
-- Trait aux blancs : tu joues les blancs
-- Échiquier : https://lichess.org/analysis/r3k2r/pbpp1ppp/1p4q1/1BbnP3/8/8/PPP1QPPP/RNB2RK1_w_kq_-_7_12
-- FEN : r3k2r/pbpp1ppp/1p4q1/1BbnP3/8/8/PPP1QPPP/RNB2RK1 w kq - 7 12
+### Position 18 (révision d'une erreur d'il y a 7 jours) : coup 29 d'une partie en blitz
+- Partie : https://www.chess.com/game/live/186925076860
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/1r3rk1/1p2bpp1/1B6/n7/8/P4b2/1QP1q2P/R1K3R1_b_-_-_1_29?color=black
+- FEN : 1r3rk1/1p2bpp1/1B6/n7/8/P4b2/1QP1q2P/R1K3R1 b - - 1 29
+- Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
+
+### Position 19 (révision d'une erreur d'il y a 14 jours) : coup 3 d'une partie en bullet
+- Partie : https://www.chess.com/game/live/186475832848
+- Trait aux noirs : tu joues les noirs
+- Échiquier : https://lichess.org/analysis/rnbqkbnr/pp2pppp/2p5/3p4/1P1N4/8/P1PPPPPP/RNBQKB1R_b_KQkq_-_0_3?color=black
+- FEN : rnbqkbnr/pp2pppp/2p5/3p4/1P1N4/8/P1PPPPPP/RNBQKB1R b KQkq - 0 3
 - Question : Avant de jouer : quels sont les échecs, les prises et les menaces possibles, pour toi comme pour l'adversaire ? Puis dis-moi ton coup.
 
 ## Leçon du jour : L01 - Mes pièces sont-elles protégées ?
 (À annoncer APRÈS les positions : ce titre souffle le type d'erreur à chercher.)
-Choisie parce que : 16 erreur(s) décisive(s) récente(s) de type « pièce laissée en prise ». Détail de la leçon dans programme.md.
+Choisie parce que : 22 erreur(s) décisive(s) récente(s) de type « pièce laissée en prise ». Détail de la leçon dans programme.md.
 
 ## Pour aller plus loin
 - theorie.md : livret d'ouvertures (lignes classiques, idées, pièges) ; chaque rapport/partie-N.md indique où la partie quitte la théorie.

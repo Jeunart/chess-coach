@@ -1,14 +1,13 @@
-# Partie 7 du 2026-11-16
+# Partie 7 du 2026-11-17
 
-## Partie 7 : rapide - défaite par abandon
-- Lien : https://www.chess.com/game/live/187324008248
+## Partie 7 : rapide - victoire par abandon de l'adversaire
+- Lien : https://www.chess.com/game/live/187400430994
 
-- Rapide (10 min), tu jouais les blancs contre Ruslan_Raxmonqulov (623) : défaite par abandon.
-- Ouverture : Petrovs Defense Steinitz Attack.
-- Au coup 10, la position était légèrement meilleure pour l'adversaire.
-- Au coup 20, la position était perdante pour toi.
+- Rapide (10 min), tu jouais les blancs contre reeed22 (591) : victoire par abandon de l'adversaire.
+- Ouverture : Scotch Game.
 - Aucune erreur décisive : partie propre.
-- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
+- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Au coup 4 des noirs, l'adversaire a joué Nxd4 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
 
 Aucun moment clé à corriger dans cette partie.
 
