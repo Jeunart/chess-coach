@@ -3,20 +3,20 @@
 Mis à jour le 2026-11-18. Toutes cadences (bullet, blitz, rapide, par correspondance).
 
 ## Par cadence
-- Rapide : 698 parties, 50 % de victoires, classement actuel 619 (il y a 30 jours : 348)
+- Rapide : 699 parties, 50 % de victoires, classement actuel 611 (il y a 30 jours : 348)
 - Blitz : 378 parties, 48 % de victoires, classement actuel 273 (il y a 30 jours : 133)
 - Bullet : 48 parties, 45 % de victoires, classement actuel 153 (il y a 30 jours : 100)
 - Par correspondance : 35 parties, 51 % de victoires, classement actuel 588 (il y a 30 jours : 464)
 
 ## Erreurs décisives par partie (perte d'au moins 2 pions, position pas déjà perdue)
-- 7 derniers jours : 2.6 (118 parties)
-- 30 derniers jours : 2.9 (504 parties)
-- 90 derniers jours : 3.2 (1122 parties)
+- 7 derniers jours : 2.6 (119 parties)
+- 30 derniers jours : 2.9 (505 parties)
+- 90 derniers jours : 3.2 (1123 parties)
 - Tendance : 2.9 sur 30 jours contre 3.2 sur les 30 jours précédents (en baisse)
 
 ## Types d'erreurs décisives (30 derniers jours / total)
 - erreur positionnelle : 500 / 1201 (étiquettes automatiques, approximatives)
-- pièce laissée en prise : 415 / 1060 (étiquettes automatiques, approximatives)
+- pièce laissée en prise : 416 / 1061 (étiquettes automatiques, approximatives)
 - menace adverse ignorée : 164 / 409 (étiquettes automatiques, approximatives)
 - gain de matériel manqué : 156 / 399 (étiquettes automatiques, approximatives)
 - mat manqué : 101 / 266 (étiquettes automatiques, approximatives)
@@ -25,14 +25,14 @@ Mis à jour le 2026-11-18. Toutes cadences (bullet, blitz, rapide, par correspon
 
 ## Phase de la partie
 - milieu : 2013
-- ouverture : 1055
+- ouverture : 1056
 - finale : 624
 
 ## Gestion du temps
 - Erreurs décisives avec moins d'une minute à l'horloge : 361
 
 ## Avantages non convertis
-- Parties non gagnées où tu as eu au moins 3 pions d'avantage : 392 sur 1159
+- Parties non gagnées où tu as eu au moins 3 pions d'avantage : 392 sur 1160
   - https://www.chess.com/game/live/187405611410 (2026-11-17, défaite par abandon)
   - https://www.chess.com/game/live/187409541238 (2026-11-17, défaite par mat)
   - https://www.chess.com/game/live/187423980974 (2026-11-17, défaite par mat)
