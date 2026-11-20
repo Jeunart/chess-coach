@@ -1,6 +1,6 @@
 # Séance du 2026-11-20
 
-Généré le 2026-11-20 04:59 (heure de Zurich). Parties étudiées : celles du 2026-11-19.
+Généré le 2026-11-20 08:49 (heure de Zurich). Parties étudiées : celles du 2026-11-19.
 
 ## Contrôle des données
 - Parties importées au total : 1174 (blitz 380, bullet 48, daily 25, rapid 721)
