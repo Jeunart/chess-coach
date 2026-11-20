@@ -1,9 +1,9 @@
 # Séance du 2026-11-20
 
-Généré le 2026-11-20 11:33 (heure de Zurich). Parties étudiées : celles du 2026-11-19.
+Généré le 2026-11-20 14:39 (heure de Zurich). Parties étudiées : celles du 2026-11-19.
 
 ## Contrôle des données
-- Parties importées au total : 1184 (blitz 383, bullet 48, daily 25, rapid 728)
+- Parties importées au total : 1189 (blitz 383, bullet 48, daily 25, rapid 733)
 - Parties de la veille importées et analysées : 11
 - Les données publiques de chess.com peuvent avoir jusqu'à 12 h de retard : une partie tardive apparaîtra dans le rapport suivant.
 
@@ -12,7 +12,7 @@ Généré le 2026-11-20 11:33 (heure de Zurich). Parties étudiées : celles du 
 - Résultats : 2 victoire(s), 0 nulle(s), 9 défaite(s)
 - Classement rapide : 617 -> 577
 - Classement blitz : 257 -> 257
-- Erreurs décisives par partie : 2.2 ce jour-là, 2.9 sur 30 jours
+- Erreurs décisives par partie : 2.2 ce jour-là, 2.8 sur 30 jours
 
 ## Parties de la veille (récit, sans les solutions)
 1. https://www.chess.com/game/live/187531518774
