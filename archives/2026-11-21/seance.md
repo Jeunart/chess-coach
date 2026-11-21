@@ -1,9 +1,9 @@
 # Séance du 2026-11-21
 
-Généré le 2026-11-21 11:15 (heure de Zurich). Parties étudiées : celles du 2026-11-20.
+Généré le 2026-11-21 14:04 (heure de Zurich). Parties étudiées : celles du 2026-11-20.
 
 ## Contrôle des données
-- Parties importées au total : 1204 (blitz 387, bullet 48, daily 25, rapid 744)
+- Parties importées au total : 1208 (blitz 387, bullet 48, daily 25, rapid 748)
 - Parties de la veille importées et analysées : 29
 - Les données publiques de chess.com peuvent avoir jusqu'à 12 h de retard : une partie tardive apparaîtra dans le rapport suivant.
 
