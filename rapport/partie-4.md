@@ -1,78 +1,56 @@
-# Partie 4 du 2026-11-23
+# Partie 4 du 2026-11-24
 
-## Partie 4 : rapide - défaite par mat
-- Lien : https://www.chess.com/game/live/187855940228
+## Partie 4 : rapide - défaite par abandon
+- Lien : https://www.chess.com/game/live/187919354160
 
-- Rapide (10 min), tu jouais les blancs contre 11aleksa (602) : défaite par mat.
-- Ouverture : Scotch.
-- Au coup 10, la position était à peu près égale.
-- Au coup 20, la position était à peu près égale.
-- 3 erreurs décisives de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 0.
-- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué Nxd4 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- Rapide (10 min), tu jouais les noirs contre ckssssssssssss (603) : défaite par abandon.
+- Ouverture : Caro Kann Defense.
+- Au coup 10, la position était nettement meilleure pour l'adversaire.
+- 2 erreurs décisives de ta part (perte d'au moins 2 pions).
+- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Au coup 3 des noirs, tu as joué Nf6 au lieu de dxe4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Caro-Kann : variante classique (3.Cc3)). Ligne complète et position finale : theorie.md.
 
 ### Moment clé 4.1 (corrigé)
-- Partie : https://www.chess.com/game/live/187855940228 - coup 12, tu jouais les blancs
-- Ton coup : la dame blanche va de e5 en e4 (Qe4)
-- Meilleur coup : la dame blanche va de e5 en e7 et prend le fou noir (Qxe7)
-- Perte mesurée : 5.1 pion(s) ; évaluation +5.2 avant, +0.1 après (profondeur 18)
-- Pourquoi : Après ton coup, une pièce restée sans défense (le fou blanc en g5) n'était pas défendu : l'adversaire la prend avec Bxg5.
+- Partie : https://www.chess.com/game/live/187919354160 - coup 11, tu jouais les noirs
+- Ton coup : le cavalier noir va de g4 en e5 et prend le cavalier blanc (Nxe5)
+- Meilleur coup : le pion noir va de c5 en d4 et prend le pion blanc (cxd4)
+- Perte mesurée : 3.4 pion(s) ; évaluation +1.0 avant, -2.3 après (profondeur 18)
+- Pourquoi : Après ton coup, l'adversaire gagne le cavalier noir en e5 avec dxe5 (échange défavorable pour toi).
 - Thème (étiquette automatique, approximative) : pièce laissée en prise
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. le fou noir va de e7 en g5 et prend le fou blanc (Bxg5) - prise du fou blanc
-  2. la dame blanche va de e4 en g4 et prend le fou noir (Qxg4) - prise du fou noir
-  3. le cavalier noir va de d7 en e5 (Ne5) - la dame blanche en g4 est attaquée et n'est pas défendue
-  4. la dame blanche va de g4 en e4 (Qe4) - le cavalier noir en e5 est attaqué et n'est pas défendu
+  1. le pion blanc va de d4 en e5 et prend le cavalier noir (dxe5) - prise du cavalier noir
+  2. le fou noir va de f8 en e7 (Be7)
+  3. le fou blanc va de e2 en h5 et prend le pion noir (échec) (Bxh5+) - prise du pion noir
+  4. le roi noir va de e8 en f8 (Kf8)
 - Ligne conseillée par le moteur, coup par coup :
-  1. la dame blanche va de e5 en e7 et prend le fou noir (Qxe7) - prise du fou noir
-  2. la dame noire va de d8 en e7 et prend la dame blanche (Qxe7) - prise de la dame blanche ; le fou blanc en g5 est attaqué et n'est pas défendu
-  3. le fou blanc va de g5 en e7 et prend la dame noire (Bxe7) - prise de la dame noire ; la tour noire en f8 est attaquée par une pièce de moindre valeur
-  4. le cavalier noir va de d7 en e5 (Ne5) - le fou blanc en c4 est attaqué et n'est pas défendu
-  5. le fou blanc va de c4 en b3 (Bb3) - la tour noire en f8 est attaquée par une pièce de moindre valeur
-- Autre option solide : le fou blanc va de g5 en e7 et prend le fou noir (Bxe7) (évaluation +0.2)
-- Autre option solide : la dame blanche va de e5 en e4 (Qe4) (évaluation +0.1)
-- Temps restant sur ton horloge : 7:39
+  1. le pion noir va de c5 en d4 et prend le pion blanc (cxd4) - prise du pion blanc ; le cavalier blanc en e5 est attaqué et n'est pas défendu ; le cavalier blanc en c3 est attaqué par une pièce de moindre valeur
+  2. la tour blanche va de f1 en e1 (Re1)
+  3. le cavalier noir va de g4 en e5 et prend le cavalier blanc (Nxe5) - prise du cavalier blanc ; le cavalier blanc en c3 est attaqué par une pièce de moindre valeur
+  4. le fou blanc va de e2 en h5 et prend le pion noir (échec) (Bxh5+) - prise du pion noir
+  5. le cavalier noir va de e5 en f7 (Nf7) - le cavalier blanc en c3 est attaqué par une pièce de moindre valeur
+- Autre option solide : le cavalier noir va de b8 en c6 (Nc6) (évaluation -0.5)
+- Autre option solide : le fou noir va de f8 en e7 (Be7) (évaluation -0.7)
+- Temps restant sur ton horloge : 7:45
 
 ### Moment clé 4.2 (corrigé)
-- Partie : https://www.chess.com/game/live/187855940228 - coup 21, tu jouais les blancs
-- Ton coup : la dame blanche va de g4 en b4 (Qb4)
-- Meilleur coup : le pion blanc va de h2 en h3 (h3)
-- Perte mesurée : 3.2 pion(s) ; évaluation -0.5 avant, -3.8 après (profondeur 18)
-- Pourquoi : Pas de gain immédiat pour l'adversaire, mais après b5 (dans la suite du moteur) le cavalier blanc en a4 est attaqué par une pièce de moindre valeur : ton coup te fait perdre du temps et de l'initiative.
-- Thème (étiquette automatique, approximative) : erreur positionnelle
+- Partie : https://www.chess.com/game/live/187919354160 - coup 14, tu jouais les noirs
+- Ton coup : le fou noir va de h5 en g6 (Bg6)
+- Meilleur coup : la tour noire va de h8 en g8 (Rg8)
+- Perte mesurée : 5.3 pion(s) ; évaluation +2.8 avant, -2.5 après (profondeur 18)
+- Pourquoi : Le coup adverse Bxf6 attaque en même temps la dame noire en d8 et la tour noire en h8 : c'est une fourchette.
+- Thème (étiquette automatique, approximative) : fourchette subie
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. le pion noir va de b7 en b5 (b5) - le cavalier blanc en a4 est attaqué par une pièce de moindre valeur
-  2. le cavalier blanc va de a4 en c5 (Nc5)
-  3. le fou noir va de f6 en e7 (Be7)
-  4. la tour blanche va de d7 en e7 et prend le fou noir (Rxe7) - prise du fou noir ; la dame noire en e5 est attaquée et n'est pas défendue
+  1. le fou blanc va de h4 en f6 et prend le pion noir (Bxf6) - prise du pion noir ; la tour noire en h8 est attaquée et n'est pas défendue ; la dame noire en d8 est attaquée par une pièce de moindre valeur
+  2. la dame noire va de d8 en c7 (Qc7)
+  3. le fou blanc va de f6 en h8 et prend la tour noire (Bxh8) - prise de la tour noire
+  4. la dame noire va de c7 en h7 (Qh7) - le fou blanc en h8 est attaqué et n'est pas défendu
 - Ligne conseillée par le moteur, coup par coup :
-  1. le pion blanc va de h2 en h3 (h3)
-  2. le pion noir va de b7 en b5 (b5) - le cavalier blanc en a4 est attaqué par une pièce de moindre valeur
-  3. le cavalier blanc va de a4 en c3 (Nc3)
-  4. le pion noir va de h7 en h5 (h5) - la dame blanche en g4 est attaquée par une pièce de moindre valeur
-  5. la dame blanche va de g4 en f3 (Qf3)
-- Autre option solide : le pion blanc va de g2 en g3 (g3) (évaluation -0.8)
-- Autre option solide : la tour blanche va de d1 en f1 (Rf1) (évaluation -1.0)
-- Temps restant sur ton horloge : 5:08
-
-### Moment clé 4.3 (corrigé)
-- Partie : https://www.chess.com/game/live/187855940228 - coup 24, tu jouais les blancs
-- Ton coup : la tour blanche va de d8 en d7 (Rd7)
-- Meilleur coup : la tour blanche va de d8 en e8 et prend la tour noire (échec) (Rxe8+)
-- Perte mesurée : 9.6 pion(s) ; évaluation -0.4 avant, mat en 2 pour l'adversaire après (profondeur 18)
-- Pourquoi : Après ton coup, l'adversaire avait un mat en 2 coups.
-- Thème (étiquette automatique, approximative) : mat subi
-- Ce qui se passe après ton coup (ligne du moteur) :
-  1. la dame noire va de e5 en e1 (échec) (Qe1+) - la dame blanche en b4 est attaquée et n'est pas défendue
-  2. la dame blanche va de b4 en e1 et prend la dame noire (Qxe1) - prise de la dame noire ; la tour noire en e8 est attaquée et n'est pas défendue
-  3. la tour noire va de e8 en e1 et prend la dame blanche (échec et mat) (Rxe1#) - prise de la dame blanche
-- Ligne conseillée par le moteur, coup par coup :
-  1. la tour blanche va de d8 en e8 et prend la tour noire (échec) (Rxe8+) - prise de la tour noire ; la dame noire en e5 est attaquée par une pièce de moindre valeur
-  2. la dame noire va de e5 en e8 et prend la tour blanche (Qxe8) - prise de la tour blanche
-  3. le pion blanc va de g2 en g3 (g3)
-  4. le pion noir va de h7 en h5 (h5)
-  5. le cavalier blanc va de a4 en c3 (Nc3)
-- Autre option solide : la tour blanche va de d8 en d1 (Rd1) (évaluation -3.1)
-- Autre option solide : le pion blanc va de g2 en g3 (g3) (évaluation -5.7)
-- Temps restant sur ton horloge : 4:35
+  1. la tour noire va de h8 en g8 (Rg8)
+  2. le pion blanc va de h2 en h3 (h3) - le fou noir en h5 est attaqué et n'est pas défendu
+  3. le cavalier noir va de b8 en c6 (Nc6)
+  4. le pion blanc va de e5 en f6 et prend le pion noir (exf6) - prise du pion noir ; le fou noir en h5 est attaqué et n'est pas défendu
+  5. la dame noire va de d8 en d7 (Qd7)
+- Autre option solide : le fou noir va de f8 en e7 (Be7) (évaluation +0.8)
+- Autre option solide : la dame noire va de d8 en d7 (Qd7) (évaluation +0.7)
+- Temps restant sur ton horloge : 7:10
 
