@@ -1,14 +1,14 @@
 {
  "archives": 5,
  "total": {
-  "rapid": 780,
+  "rapid": 781,
   "blitz": 387,
   "bullet": 48,
   "daily": 25
  },
  "exclues": {},
- "genere": "2026-11-25T06:26:49+01:00",
- "analysees": 1250,
+ "genere": "2026-11-25T10:16:33+01:00",
+ "analysees": 1251,
  "echecs": [],
  "manquantes": -10
 }

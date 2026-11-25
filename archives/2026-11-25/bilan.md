@@ -37,12 +37,12 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - avantage non converti : jusqu'à +7.0 pions, mais la partie n'a pas été gagnée
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 285 parties, 51 % de victoires, 2.9 erreur(s) décisive(s) par partie, classement 407 -> 577
+- 286 parties, 51 % de victoires, 2.9 erreur(s) décisive(s) par partie, classement 407 -> 569
 - Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
-- Phase des erreurs : milieu 471, ouverture 195, finale 173
-- Erreurs décisives avec moins d'une minute à l'horloge : 30 sur 839
-- Parties non gagnées avec au moins 3 pions d'avantage : 87 sur 285
-- Ouvertures les plus jouées avec les blancs : Scotch Game (18V/3N/20D) ; Kings Pawn Opening Kings Knight (8V/2N/7D)
+- Phase des erreurs : milieu 472, ouverture 196, finale 173
+- Erreurs décisives avec moins d'une minute à l'horloge : 30 sur 841
+- Parties non gagnées avec au moins 3 pions d'avantage : 88 sur 286
+- Ouvertures les plus jouées avec les blancs : Scotch Game (18V/3N/20D) ; Kings Pawn Opening Kings Knight (8V/2N/8D)
 - Ouvertures les plus jouées avec les noirs : Caro Kann Defense (25V/2N/27D) ; Caro Kann Defense Exchange Variation (9V/0N/2D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
