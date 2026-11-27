@@ -1,58 +1,33 @@
-# Partie 6 du 2026-11-25
+# Partie 6 du 2026-11-26
 
-## Partie 6 : rapide - défaite par mat
-- Lien : https://www.chess.com/game/live/187988462458
+## Partie 6 : rapide - victoire par abandon de l'adversaire
+- Lien : https://www.chess.com/game/live/188054897474
 
-- Rapide (10 min), tu jouais les blancs contre MatExtraAu (548) : défaite par mat.
-- Ouverture : Nimzowitsch Defense.
-- Au coup 10, la position était à peu près égale.
-- Au coup 20, la position était nettement meilleure pour l'adversaire.
-- Au coup 30, la position était perdante pour toi.
-- 4 erreurs décisives de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 4 occasions d'avantage ; tu en as saisi 2.
-- Théorie d'ouverture : Au coup 4 des noirs, l'adversaire a joué Nc6 au lieu de Nf6 (coup du livret). Avant, la partie suivait la ligne « 2...Dxd5 » (Contre la Scandinave (1.e4 d5)). Ligne complète et position finale : theorie.md.
+- Rapide (10 min), tu jouais les blancs contre shiva_surabhi (562) : victoire par abandon de l'adversaire.
+- Ouverture : Kings Pawn Opening Kings Knight.
+- 3 erreurs décisives de ta part (perte d'au moins 2 pions).
+- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 1.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 6.1 (corrigé)
-- Partie : https://www.chess.com/game/live/187988462458 - coup 21, tu jouais les blancs
-- Ton coup : la dame blanche va de e2 en e4 (Qe4)
-- Meilleur coup : le pion blanc va de c2 en c4 (c4)
-- Perte mesurée : 2.6 pion(s) ; évaluation -2.0 avant, -4.5 après (profondeur 18)
-- Pourquoi : Pas de gain immédiat pour l'adversaire, mais après Qc7 (dans la suite du moteur) la dame blanche en e5 est attaquée et n'est pas défendue : ton coup te fait perdre du temps et de l'initiative.
-- Thème (étiquette automatique, approximative) : erreur positionnelle
+- Partie : https://www.chess.com/game/live/188054897474 - coup 8, tu jouais les blancs
+- Ton coup : le fou blanc va de c5 en a7 et prend le pion noir (Bxa7)
+- Meilleur coup : le cavalier blanc va de b5 en d6 (Nd6)
+- Perte mesurée : 3.0 pion(s) ; évaluation +7.0 avant, +4.0 après (profondeur 18)
+- Pourquoi : L'adversaire menaçait le cavalier blanc en b5 et ton coup n'a pas réglé cette menace : il la prend avec cxb5.
+- Thème (étiquette automatique, approximative) : menace adverse ignorée
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. le roi noir va de d6 en e7 (Ke7)
-  2. la dame blanche va de e4 en h4 (échec) (Qh4+)
-  3. le cavalier noir va de d5 en f6 (Nf6)
-  4. le pion blanc va de h2 en h3 (h3)
+  1. le pion noir va de c6 en b5 et prend le cavalier blanc (cxb5) - prise du cavalier blanc ; le fou blanc en a7 est attaqué et n'est pas défendu
+  2. le fou blanc va de a7 en d4 (Bd4) - la dame noire en f6 est attaquée par une pièce de moindre valeur
+  3. la dame noire va de f6 en g6 (Qg6)
+  4. le cavalier blanc va de b1 en c3 (Nc3)
 - Ligne conseillée par le moteur, coup par coup :
-  1. le pion blanc va de c2 en c4 (c4) - le cavalier noir en d5 est attaqué par une pièce de moindre valeur
-  2. le roi noir va de d6 en e7 (Ke7)
-  3. le pion blanc va de c4 en d5 et prend le cavalier noir (cxd5) - prise du cavalier noir
-  4. le pion noir va de c6 en d5 et prend le pion blanc (cxd5) - prise du pion blanc
-  5. le pion blanc va de h2 en h3 (h3)
-- Autre option solide : le pion blanc va de b2 en b4 (b4) (évaluation -3.9)
-- Autre option solide : la dame blanche va de e2 en g4 (Qg4) (évaluation -4.0)
-- Temps restant sur ton horloge : 6:57
-
-### Moment clé 6.2 (corrigé)
-- Partie : https://www.chess.com/game/live/187988462458 - coup 28, tu jouais les blancs
-- Ton coup : la dame blanche va de e5 en e6 et prend le pion noir (échec) (Qxe6+)
-- Meilleur coup : la dame blanche va de e5 en h8 (échec) (Qh8+)
-- Perte mesurée : 4.4 pion(s) ; évaluation +0.0 avant, -4.4 après (profondeur 18)
-- Pourquoi : Pas de tactique immédiate : ton coup a surtout dégradé ta position ; le meilleur coup donnait échec.
-- Thème (étiquette automatique, approximative) : erreur positionnelle
-- Ce qui se passe après ton coup (ligne du moteur) :
-  1. le roi noir va de c8 en b8 (Kb8)
-  2. la dame blanche va de e6 en g8 (échec) (Qg8+)
-  3. le roi noir va de b8 en a7 (Ka7)
-  4. le pion blanc va de h2 en h3 (h3)
-- Ligne conseillée par le moteur, coup par coup :
-  1. la dame blanche va de e5 en h8 (échec) (Qh8+)
-  2. le roi noir va de c8 en c7 (Kc7)
-  3. la dame blanche va de h8 en e5 (échec) (Qe5+)
-  4. le roi noir va de c7 en d8 (Kd8)
-  5. la dame blanche va de e5 en h8 (échec) (Qh8+)
-- Autre option solide : la dame blanche va de e5 en d6 (Qd6) (évaluation -4.1)
-- Autre option solide : la dame blanche va de e5 en g7 (Qg7) (évaluation -4.6)
-- Temps restant sur ton horloge : 4:53
+  1. le cavalier blanc va de b5 en d6 (Nd6)
+  2. la dame noire va de f6 en b2 et prend le pion blanc (Qxb2) - prise du pion blanc ; la tour blanche en a1 est attaquée et n'est pas défendue
+  3. le fou blanc va de c5 en d4 (Bd4) - la dame noire en b2 est attaquée et n'est pas défendue
+  4. la dame noire va de b2 en b4 (échec) (Qb4+) - le cavalier blanc en d6 est attaqué et n'est pas défendu
+  5. le fou blanc va de d4 en c3 (Bc3) - la dame noire en b4 est attaquée et n'est pas défendue
+- Autre option solide : le cavalier blanc va de b5 en c3 (N5c3) (évaluation +6.1)
+- Autre option solide : le cavalier blanc va de b5 en a3 (N5a3) (évaluation +5.5)
+- Temps restant sur ton horloge : 8:40
 

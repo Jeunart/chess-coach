@@ -1,57 +1,33 @@
-# Partie 12 du 2026-11-25
+# Partie 12 du 2026-11-26
 
-## Partie 12 : rapide - défaite par mat
-- Lien : https://www.chess.com/game/live/188006457350
+## Partie 12 : blitz - victoire par abandon de l'adversaire
+- Lien : https://www.chess.com/game/live/188083936230
 
-- Rapide (10 min), tu jouais les noirs contre Smullie2609 (603) : défaite par mat.
-- Ouverture : Slav Defense.
-- Au coup 10, la position était nettement meilleure pour toi.
-- Au coup 20, la position était nettement meilleure pour l'adversaire.
+- Blitz (5 min), tu jouais les blancs contre coco_brbr (220) : victoire par abandon de l'adversaire.
+- Ouverture : Four Knights Game Scotch Variation.
 - 2 erreurs décisives de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
+- L'adversaire t'a offert 2 occasions d'avantage ; tu en as saisi 1.
 - Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 12.1 (corrigé)
-- Partie : https://www.chess.com/game/live/188006457350 - coup 7, tu jouais les noirs
-- Ton coup : le cavalier noir va de f6 en d5 et prend le pion blanc (Nxd5)
-- Meilleur coup : le pion noir va de e7 en e5 (e5)
-- Perte mesurée : 4.5 pion(s) ; évaluation +0.6 avant, -3.9 après (profondeur 18)
-- Pourquoi : Après ton coup, l'adversaire gagne le cavalier noir en d5 avec Qxd5 (échange défavorable pour toi).
-- Thème (étiquette automatique, approximative) : pièce laissée en prise
+- Partie : https://www.chess.com/game/live/188083936230 - coup 9, tu jouais les blancs
+- Ton coup : le pion blanc va de c2 en c3 (c3)
+- Meilleur coup : le pion blanc va de d5 en c6 et prend le cavalier noir (dxc6)
+- Perte mesurée : 5.7 pion(s) ; évaluation +5.0 avant, -0.7 après (profondeur 18)
+- Pourquoi : Tu pouvais gagner le cavalier noir en c6 : tu le prenais avec une pièce de moindre valeur.
+- Thème (étiquette automatique, approximative) : gain de matériel manqué
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. la dame blanche va de d1 en d5 et prend le cavalier noir (Qxd5) - prise du cavalier noir ; le fou noir en f5 est attaqué et n'est pas défendu
-  2. la dame noire va de d8 en d5 et prend la dame blanche (Qxd5) - prise de la dame blanche
-  3. le cavalier blanc va de c3 en d5 et prend la dame noire (Nxd5) - prise de la dame noire
-  4. le cavalier noir va de b8 en c6 (Nc6)
+  1. le pion noir va de d4 en d3 (d3) - le fou blanc en e2 est attaqué par une pièce de moindre valeur
+  2. le pion blanc va de c3 en b4 et prend le fou noir (cxb4) - prise du fou noir ; le cavalier noir en c6 est attaqué par une pièce de moindre valeur
+  3. le cavalier noir va de c6 en b4 et prend le pion blanc (Nxb4) - prise du pion blanc ; le fou blanc en e2 est attaqué par une pièce de moindre valeur
+  4. le fou blanc va de d2 en b4 et prend le cavalier noir (Bxb4) - prise du cavalier noir
 - Ligne conseillée par le moteur, coup par coup :
-  1. le pion noir va de e7 en e5 (e5)
-  2. le pion blanc va de f3 en e4 et prend le pion noir (fxe4) - prise du pion noir ; le fou noir en f5 est attaqué et n'est pas défendu
-  3. le fou noir va de f5 en g6 (Bg6)
-  4. le cavalier blanc va de g1 en f3 (Nf3)
-  5. le cavalier noir va de b8 en d7 (Nbd7)
-- Autre option solide : le pion noir va de e4 en f3 et prend le pion blanc (exf3) (évaluation +0.5)
-- Autre option solide : le fou noir va de f5 en d7 (Bd7) (évaluation +0.2)
-- Temps restant sur ton horloge : 9:17
-
-### Moment clé 12.2 (corrigé)
-- Partie : https://www.chess.com/game/live/188006457350 - coup 12, tu jouais les noirs
-- Ton coup : la dame noire va de h4 en f4 et prend le fou blanc (Qxf4)
-- Meilleur coup : la dame noire va de h4 en f6 (Qf6)
-- Perte mesurée : 5.8 pion(s) ; évaluation +2.7 avant, -3.1 après (profondeur 18)
-- Pourquoi : Après ton coup, la pièce que tu viens de déplacer (la dame noire en f4) n'était pas défendue : l'adversaire la prend avec gxf4.
-- Thème (étiquette automatique, approximative) : pièce laissée en prise
-- Ce qui se passe après ton coup (ligne du moteur) :
-  1. le pion blanc va de g3 en f4 et prend la dame noire (gxf4) - prise de la dame noire
-  2. le fou noir va de f8 en b4 (échec) (Bb4+)
-  3. le roi blanc va de e1 en f1 (Kf1)
+  1. le pion blanc va de d5 en c6 et prend le cavalier noir (dxc6) - prise du cavalier noir ; le fou noir en b4 est attaqué et n'est pas défendu
+  2. le fou noir va de b4 en d6 (Bd6)
+  3. le roi fait le petit roque (O-O)
   4. le roi fait le petit roque (O-O)
-- Ligne conseillée par le moteur, coup par coup :
-  1. la dame noire va de h4 en f6 (Qf6)
-  2. la dame blanche va de d1 en a4 (Qa4)
-  3. la tour noire va de a8 en c8 (Rc8)
-  4. le cavalier blanc va de g1 en e2 (Ne2)
-  5. le fou noir va de f8 en e7 (Be7)
-- Autre option solide : le fou noir va de f8 en b4 (échec) (Bb4+) (évaluation +2.6)
-- Autre option solide : la dame noire va de h4 en d8 (Qd8) (évaluation +2.4)
-- Temps restant sur ton horloge : 8:37
+  5. le fou blanc va de e2 en d3 (Bd3) - la dame noire en e4 est attaquée et n'est pas défendue
+- Autre option solide : le roi fait le petit roque (O-O) (évaluation +0.1)
+- Autre option solide : le fou blanc va de d2 en b4 et prend le fou noir (Bxb4) (évaluation +0.1)
+- Temps restant sur ton horloge : 4:05
 
