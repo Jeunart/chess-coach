@@ -71,11 +71,11 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - théorie : Au coup 3 des noirs, l'adversaire a joué f6 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 299 parties, 51 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 423 -> 591
-- Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
-- Phase des erreurs : milieu 496, ouverture 208, finale 184
-- Erreurs décisives avec moins d'une minute à l'horloge : 31 sur 888
-- Parties non gagnées avec au moins 3 pions d'avantage : 90 sur 299
+- 301 parties, 51 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 423 -> 607
+- Types d'erreurs : erreur positionnelle 37 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 9 %
+- Phase des erreurs : milieu 499, ouverture 209, finale 184
+- Erreurs décisives avec moins d'une minute à l'horloge : 31 sur 892
+- Parties non gagnées avec au moins 3 pions d'avantage : 90 sur 301
 - Ouvertures les plus jouées avec les blancs : Scotch Game (22V/3N/20D) ; Kings Pawn Opening Kings Knight (9V/2N/7D)
 - Ouvertures les plus jouées avec les noirs : Caro Kann Defense (27V/2N/27D) ; Caro Kann Defense Exchange Variation (9V/1N/4D)
 
