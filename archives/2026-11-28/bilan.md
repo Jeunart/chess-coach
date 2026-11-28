@@ -70,13 +70,13 @@ Le coach explique ces faits avec ses mots, sans rien recalculer.
   - théorie : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ## Rapides 10 et 15 min : tendance sur 30 jours
-- 295 parties, 50 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 453 -> 589
+- 297 parties, 51 % de victoires, 3.0 erreur(s) décisive(s) par partie, classement 453 -> 605
 - Types d'erreurs : erreur positionnelle 38 %, pièce laissée en prise 28 %, menace adverse ignorée 10 %, gain de matériel manqué 8 %
-- Phase des erreurs : milieu 500, ouverture 198, finale 181
-- Erreurs décisives avec moins d'une minute à l'horloge : 28 sur 879
-- Parties non gagnées avec au moins 3 pions d'avantage : 91 sur 295
+- Phase des erreurs : milieu 503, ouverture 198, finale 182
+- Erreurs décisives avec moins d'une minute à l'horloge : 28 sur 883
+- Parties non gagnées avec au moins 3 pions d'avantage : 91 sur 297
 - Ouvertures les plus jouées avec les blancs : Scotch Game (20V/3N/21D) ; Kings Pawn Opening Kings Knight (8V/2N/7D)
-- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (26V/2N/27D) ; Caro Kann Defense Exchange Variation (9V/1N/4D)
+- Ouvertures les plus jouées avec les noirs : Caro Kann Defense (26V/2N/27D) ; Caro Kann Defense Exchange Variation (10V/1N/4D)
 
 ## Axes de progression proposés (calculés, à reformuler par le coach)
 1. Erreur positionnelle - Dans le calme, choisis un plan simple (développer, roquer, activer la dernière pièce) et vérifie que ton coup ne gêne pas tes pièces.
