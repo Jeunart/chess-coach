@@ -1,36 +1,35 @@
-# Partie 5 du 2026-11-26
+# Partie 5 du 2026-11-27
 
-## Partie 5 : rapide - victoire par abandon de l'adversaire
-- Lien : https://www.chess.com/game/live/188054314586
+## Partie 5 : rapide - victoire par mat
+- Lien : https://www.chess.com/game/live/188138490090
 
-- Rapide (10 min), tu jouais les blancs contre alexissanchez777 (555) : victoire par abandon de l'adversaire.
-- Ouverture : Scotch Game.
-- Au coup 10, la position était gagnante pour toi.
-- Au coup 20, la position était gagnante pour toi.
-- Au coup 30, la position était gagnante pour toi.
+- Rapide (10 min), tu jouais les noirs contre notnick_1 (580) : victoire par mat.
+- Ouverture : Queens Pawn Opening Levitsky Attack.
+- Au coup 10, la position était légèrement meilleure pour l'adversaire.
+- Au coup 20, la position était à peu près égale.
 - 1 erreur décisive de ta part (perte d'au moins 2 pions).
-- L'adversaire t'a offert 1 occasion d'avantage ; tu en as saisi 1.
-- Théorie d'ouverture : Au coup 3 des noirs, l'adversaire a joué f6 au lieu de exd4 (coup du livret). Avant, la partie suivait la ligne « Principale » (Partie écossaise (Scotch)). Ligne complète et position finale : theorie.md.
+- L'adversaire t'a offert 3 occasions d'avantage ; tu en as saisi 2.
+- Théorie d'ouverture : Ouverture hors de mon livret : consulte l'ouverture dans theorie.md si elle y figure, sinon applique les 5 principes.
 
 ### Moment clé 5.1 (corrigé)
-- Partie : https://www.chess.com/game/live/188054314586 - coup 18, tu jouais les blancs
-- Ton coup : le pion blanc va de f4 en e5 et prend le pion noir (fxe5)
-- Meilleur coup : le pion blanc va de f4 en f5 (f5)
-- Perte mesurée : 2.0 pion(s) ; évaluation +6.6 avant, +4.6 après (profondeur 18)
-- Pourquoi : Pas de gain immédiat pour l'adversaire, mais après Nxe5 (dans la suite du moteur) la dame blanche en f6 est attaquée par une pièce de moindre valeur : ton coup te fait perdre du temps et de l'initiative.
+- Partie : https://www.chess.com/game/live/188138490090 - coup 21, tu jouais les noirs
+- Ton coup : la dame noire va de d7 en e7 (Qe7)
+- Meilleur coup : le fou noir va de h6 en f8 (Bf8)
+- Perte mesurée : 3.6 pion(s) ; évaluation +1.5 avant, -2.0 après (profondeur 18)
+- Pourquoi : Pas de tactique immédiate : ton coup a surtout dégradé ta position.
 - Thème (étiquette automatique, approximative) : erreur positionnelle
 - Ce qui se passe après ton coup (ligne du moteur) :
-  1. le cavalier noir va de f7 en e5 et prend le pion blanc (Nxe5) - prise du pion blanc ; la dame blanche en f6 est attaquée par une pièce de moindre valeur
-  2. la dame blanche va de f6 en h4 (Qh4)
-  3. la tour noire va de f8 en f1 et prend la tour blanche (échec) (Rxf1+) - prise de la tour blanche
-  4. le roi blanc va de g1 en f1 et prend la tour noire (Kxf1) - prise de la tour noire
+  1. le pion blanc va de c4 en d5 et prend le pion noir (cxd5) - prise du pion noir
+  2. la dame noire va de e7 en a3 et prend le cavalier blanc (Qxa3) - prise du cavalier blanc
+  3. le pion blanc va de d5 en e6 et prend le pion noir (dxe6) - prise du pion noir
+  4. le fou noir va de h6 en f8 (Bf8)
 - Ligne conseillée par le moteur, coup par coup :
-  1. le pion blanc va de f4 en f5 (f5)
-  2. le pion noir va de a6 en a5 (a5)
-  3. le fou blanc va de c1 en e3 (Be3)
-  4. le pion noir va de a5 en b4 et prend le pion blanc (axb4) - prise du pion blanc ; le cavalier blanc en c3 est attaqué par une pièce de moindre valeur
-  5. le cavalier blanc va de c3 en d1 (Nd1)
-- Autre option solide : le fou blanc va de c1 en e3 (Be3) (évaluation +6.3)
-- Autre option solide : la dame blanche va de f6 en h4 (Qh4) (évaluation +6.2)
-- Temps restant sur ton horloge : 6:35
+  1. le fou noir va de h6 en f8 (Bf8) - le cavalier blanc en a3 est attaqué et n'est pas défendu
+  2. le cavalier blanc va de a3 en b1 (Nb1)
+  3. le fou noir va de f8 en c5 (Bc5) - la dame blanche en b6 est attaquée et n'est pas défendue
+  4. la dame blanche va de b6 en a5 (Qa5)
+  5. le pion noir va de f4 en e3 et prend le pion blanc (fxe3) - prise du pion blanc
+- Autre option solide : la dame noire va de d7 en c6 (Qc6) (évaluation +0.6)
+- Autre option solide : la tour noire va de c8 en c6 (Rc6) (évaluation +0.3)
+- Temps restant sur ton horloge : 4:24
 
